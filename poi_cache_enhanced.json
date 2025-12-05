@@ -1,0 +1,1314 @@
+{
+  "13.793366_100.540966_school": {
+    "distance": 1441,
+    "name": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e2a\u0e32\u0e21\u0e40\u0e2a\u0e19\u0e27\u0e34\u0e17\u0e22\u0e32\u0e25\u0e31\u0e22",
+    "place_id": "ChIJiaXiGwSc4jAREdfmSax9W6I"
+  },
+  "13.793366_100.540966_park": {
+    "distance": 3393,
+    "name": "\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e1c\u0e35\u0e40\u0e2a\u0e37\u0e49\u0e2d\u0e41\u0e25\u0e30\u0e41\u0e21\u0e25\u0e07 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f",
+    "place_id": "ChIJN1kUQ1yc4jARjpGEPYyF0S0"
+  },
+  "13.793366_100.540966_hospital": {
+    "distance": 3932,
+    "name": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e1a\u0e32\u0e07\u0e42\u0e1e",
+    "place_id": "ChIJd_7VZIyb4jARfdCtgY3NDxY"
+  },
+  "13.793366_100.540966_veterinary_care": {
+    "distance": 3264,
+    "name": "\u0e04\u0e25\u0e34\u0e19\u0e34\u0e01\u0e2b\u0e21\u0e2d\u0e01\u0e21\u0e25\u0e23\u0e31\u0e01\u0e29\u0e32\u0e2a\u0e31\u0e15\u0e27\u0e4c",
+    "place_id": "ChIJo0pCoPyb4jARRa63-gWDLNg"
+  },
+  "13.793366_100.540966_convenience_store": {
+    "distance": 1613,
+    "name": "7-Eleven \u0e2a\u0e32\u0e02\u0e32 \u0e2d\u0e34\u0e19\u0e17\u0e23\u0e32\u0e21\u0e23\u0e30 4 (00207)",
+    "place_id": "ChIJ9ZUeExmc4jARKYlzSt7_2aA"
+  },
+  "13.793366_100.540966_shopping_mall": {
+    "distance": 3165,
+    "name": "\u0e40\u0e08\u0e40\u0e08\u0e21\u0e2d\u0e25\u0e25\u0e4c \u0e08\u0e15\u0e38\u0e08\u0e31\u0e01\u0e23 \u0e15\u0e34\u0e14\u0e41\u0e2d\u0e23\u0e4c",
+    "place_id": "ChIJQ2IA1xSc4jARPUC_qVZP9U4"
+  },
+  "13.793366_100.540966_market": {
+    "distance": 7503,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.793366_100.540966_supermarket": {
+    "distance": 2679,
+    "name": "\u0e23\u0e49\u0e32\u0e19\u0e42\u0e04\u0e23\u0e07\u0e01\u0e32\u0e23\u0e2b\u0e25\u0e27\u0e07 \u0e2a\u0e32\u0e02\u0e32 \u0e15\u0e25\u0e32\u0e14 \u0e2d.\u0e15.\u0e01.",
+    "place_id": "ChIJmSTqGBSc4jARN-amj_negC0"
+  },
+  "13.793366_100.540966_transit_station": {
+    "distance": 2869,
+    "name": "\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e32\u0e07\u0e0b\u0e37\u0e48\u0e2d",
+    "place_id": "ChIJo7eFMQ2c4jARaSxXqISHsTs"
+  },
+  "13.793366_100.540966_train_station": {
+    "distance": 2311,
+    "name": "Sam Sen",
+    "place_id": "ChIJL7Fxtqqe4jAR2CSEysTEArU"
+  },
+  "13.793366_100.540966_bus_station": {
+    "distance": 1479,
+    "name": "\u0e2a\u0e19.\u0e1a\u0e32\u0e07\u0e0b\u0e37\u0e48\u0e2d",
+    "place_id": "ChIJxyCkRBmc4jARNFDu4Tew3dE"
+  },
+  "13.793366_100.540966_beach": {
+    "distance": 7503,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.793366_100.540966_hindu_temple": {
+    "distance": 1163,
+    "name": "\u0e27\u0e31\u0e14\u0e1e\u0e23\u0e30\u0e28\u0e34\u0e27\u0e30\u0e40\u0e08\u0e49\u0e32",
+    "place_id": "ChIJXZ8NSDyd4jARwuta8oUQtIM"
+  },
+  "13.793366_100.540966_museum": {
+    "distance": 3393,
+    "name": "\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e1c\u0e35\u0e40\u0e2a\u0e37\u0e49\u0e2d\u0e41\u0e25\u0e30\u0e41\u0e21\u0e25\u0e07 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f",
+    "place_id": "ChIJN1kUQ1yc4jARjpGEPYyF0S0"
+  },
+  "13.793366_100.540966_tourist_attraction": {
+    "distance": 3393,
+    "name": "\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e1c\u0e35\u0e40\u0e2a\u0e37\u0e49\u0e2d\u0e41\u0e25\u0e30\u0e41\u0e21\u0e25\u0e07 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f",
+    "place_id": "ChIJN1kUQ1yc4jARjpGEPYyF0S0"
+  },
+  "13.793366_100.540966_scenic_viewpoint": {
+    "distance": 7503,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.793366_100.540966_natural_feature": null,
+  "13.793366_100.540966_golf_course": {
+    "distance": 7503,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.793366_100.540966_restaurant": {
+    "distance": 3326,
+    "name": "\u0e2b\u0e2d\u0e22\u0e17\u0e2d\u0e14\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35\u0e23\u0e32\u0e0a\u0e27\u0e31\u0e15\u0e23",
+    "place_id": "ChIJ80bZN_2c4jARoFBkzAD2Ves"
+  },
+  "13.793366_100.540966_cafe": {
+    "distance": 264,
+    "name": "\u0e42\u0e2d\u0e44\u0e23\u0e2d\u0e2d\u0e19 \u0e04\u0e2d\u0e1f\u0e1f\u0e35\u0e48",
+    "place_id": "ChIJAbF8ABCc4jARx601Ruskt78"
+  },
+  "13.793366_100.540966_gym": {
+    "distance": 5304,
+    "name": "\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e2d\u0e07\u0e17\u0e31\u0e1e\u0e1a\u0e01",
+    "place_id": "ChIJpXDQIyGc4jAR4tNufdRXqwo"
+  },
+  "13.793366_100.540966_spa": {
+    "distance": 1821,
+    "name": "\u0e1a\u0e49\u0e32\u0e19\u0e15\u0e33\u0e19\u0e32\u0e19\u0e44\u0e17\u0e22 \u0e17\u0e34\u0e0a\u0e32",
+    "place_id": "ChIJHfZV_Ryc4jARS2Ok9s840Fo"
+  },
+  "13.793366_100.540966_hotel": {
+    "distance": 7503,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.793366_100.540966_university": {
+    "distance": 8067,
+    "name": "\u0e2d\u0e32\u0e04\u0e32\u0e23 \u0e21\u0e34\u0e27",
+    "place_id": "ChIJxyt70KKe4jARdkddwICIY-o"
+  },
+  "13.784407_100.701647_school": {
+    "distance": 1411,
+    "name": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e21\u0e30\u0e40\u0e0b\u0e32\u0e30\u0e2e\u0e30\u0e15\u0e38\u0e14\u0e14\u0e35\u0e19 2",
+    "place_id": "ChIJsUvlsvtjHTERnrkKEcxiuWM"
+  },
+  "13.784407_100.701647_park": {
+    "distance": 2220,
+    "name": "Wonder Art",
+    "place_id": "ChIJD-nTVe5jHTERMII-1jL2bRA"
+  },
+  "13.784407_100.701647_hospital": {
+    "distance": 5246,
+    "name": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e40\u0e01\u0e29\u0e21\u0e23\u0e32\u0e29\u0e0e\u0e23\u0e4c \u0e23\u0e32\u0e21\u0e04\u0e33\u0e41\u0e2b\u0e07",
+    "place_id": "ChIJixB6ptdjHTERCP0xlh2GNV8"
+  },
+  "13.784407_100.701647_veterinary_care": {
+    "distance": 2913,
+    "name": "\u0e04\u0e25\u0e34\u0e19\u0e34\u0e01\u0e40\u0e2d\u0e37\u0e49\u0e2d\u0e15\u0e30\u0e27\u0e31\u0e19\u0e23\u0e31\u0e01\u0e29\u0e4c\u0e2a\u0e31\u0e15\u0e27\u0e4c",
+    "place_id": "ChIJjzNB1udjHTERGBSJ8lhy9fI"
+  },
+  "13.784407_100.701647_convenience_store": {
+    "distance": 3337,
+    "name": "Kudsan Bakery & Coffee",
+    "place_id": "ChIJW8DmEHVkHTER7Jtd9_QiPn8"
+  },
+  "13.784407_100.701647_shopping_mall": {
+    "distance": 1160,
+    "name": "\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e0b\u0e31\u0e19\u0e40\u0e14\u0e49\u0e19 \u0e40\u0e04\u0e21\u0e35\u0e04\u0e2d\u0e25 \u0e08\u0e33\u0e01\u0e31\u0e14",
+    "place_id": "ChIJ-9BpZvljHTERCq1cMTk7-bY"
+  },
+  "13.784407_100.701647_market": {
+    "distance": 33721,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.784407_100.701647_supermarket": {
+    "distance": 3909,
+    "name": "CP Freshmart \u0e18\u0e23\u0e32\u0e01\u0e23",
+    "place_id": "ChIJXd4oI3VkHTER4XtHAuOLGS4"
+  },
+  "13.784407_100.701647_transit_station": {
+    "distance": 3970,
+    "name": "\u0e2b\u0e21\u0e39\u0e48\u0e1a\u0e49\u0e32\u0e19\u0e18\u0e32\u0e23\u0e32\u0e23\u0e21\u0e13\u0e4c",
+    "place_id": "ChIJS9Ww0O5jHTERLLXc93BqXv0"
+  },
+  "13.784407_100.701647_train_station": null,
+  "13.784407_100.701647_bus_station": null,
+  "13.784407_100.701647_beach": {
+    "distance": 33721,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.784407_100.701647_hindu_temple": {
+    "distance": 3428,
+    "name": "\u0e1a\u0e49\u0e32\u0e19\u0e04\u0e40\u0e19\u0e17\u0e34\u0e1e\u0e22\u0e4c \u0e40\u0e2b\u0e23\u0e31\u0e21\u0e20\u0e30\u0e04\u0e13\u0e1b\u0e15\u0e34",
+    "place_id": "ChIJW09TXXthHTERA6aqOQJdAB8"
+  },
+  "13.784407_100.701647_museum": {
+    "distance": 3588,
+    "name": "\u0e28\u0e32\u0e25\u0e1e\u0e23\u0e32\u0e19\u0e1a\u0e38\u0e0d \u0e41\u0e21\u0e48\u0e17\u0e32\u0e2a\u0e35 \u0e0a\u0e31\u0e22\u0e22\u0e30\u0e21\u0e07\u0e04\u0e25",
+    "place_id": "ChIJmalOjydhHTERlwOR8tiLvbs"
+  },
+  "13.784407_100.701647_tourist_attraction": {
+    "distance": 2561,
+    "name": "\u0e15\u0e25\u0e32\u0e14\u0e19\u0e49\u0e33\u0e02\u0e27\u0e31\u0e0d\u0e40\u0e23\u0e35\u0e22\u0e21",
+    "place_id": "ChIJF8IG9HVkHTERjxMcy-0ZfcA"
+  },
+  "13.784407_100.701647_scenic_viewpoint": {
+    "distance": 33721,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.784407_100.701647_natural_feature": {
+    "distance": 5458,
+    "name": "\u0e17\u0e30\u0e40\u0e25\u0e2a\u0e32\u0e1b \u0e2a\u0e31\u0e21\u0e21\u0e32\u0e01\u0e23 1",
+    "place_id": "ChIJrbAmCmNhHTERz4D5dtJwvL8"
+  },
+  "13.784407_100.701647_golf_course": {
+    "distance": 33721,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.784407_100.701647_restaurant": {
+    "distance": 3904,
+    "name": "\u0e23\u0e49\u0e32\u0e19 \u0e40\u0e14\u0e25\u0e34\u0e40\u0e0b\u0e35\u0e22 \u0e1e\u0e34\u0e0b\u0e0b\u0e48\u0e32 \u0e41\u0e2d\u0e19\u0e14\u0e4c \u0e1e\u0e32\u0e2a\u0e15\u0e49\u0e32",
+    "place_id": "ChIJwwaPlgpkHTERP_v4vj8t94I"
+  },
+  "13.784407_100.701647_cafe": {
+    "distance": 3337,
+    "name": "Kudsan Bakery & Coffee",
+    "place_id": "ChIJW8DmEHVkHTER7Jtd9_QiPn8"
+  },
+  "13.784407_100.701647_gym": {
+    "distance": 6326,
+    "name": "Master Club",
+    "place_id": "ChIJO5cSuQpkHTER63gHkjzitVk"
+  },
+  "13.784407_100.701647_spa": {
+    "distance": 5646,
+    "name": "\u0e21\u0e31\u0e17\u0e23\u0e35 \u0e19\u0e27\u0e14\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e \u0e2a\u0e32\u0e02\u0e32 \u0e23\u0e32\u0e21\u0e04\u0e33\u0e41\u0e2b\u0e07",
+    "place_id": "ChIJPcs-5NljHTERAQPLPSoo2Rw"
+  },
+  "13.784407_100.701647_hotel": {
+    "distance": 33721,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.784407_100.701647_university": {
+    "distance": 4613,
+    "name": "Netmight",
+    "place_id": "ChIJOWjJTr9jHTERvkUdSHUOO5c"
+  },
+  "12.778317_101.205449_school": {
+    "distance": 2708,
+    "name": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e27\u0e31\u0e14\u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32(\u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32\u0e27\u0e34\u0e17\u0e22\u0e32\u0e04\u0e32\u0e23)",
+    "place_id": "ChIJt7t0u13lAjERUlIJ3QbyCn0"
+  },
+  "12.778317_101.205449_park": {
+    "distance": 2275,
+    "name": "\u0e2a\u0e27\u0e19\u0e17\u0e38\u0e40\u0e23\u0e35\u0e22\u0e19\u0e41\u0e25\u0e30\u0e1f\u0e32\u0e23\u0e4c\u0e21\u0e1b\u0e25\u0e32",
+    "place_id": "ChIJMceTTxLlAjERiRtzjPAZf2o"
+  },
+  "12.778317_101.205449_hospital": {
+    "distance": 1910,
+    "name": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e2a\u0e48\u0e07\u0e40\u0e2a\u0e23\u0e34\u0e21\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\u0e15\u0e33\u0e1a\u0e25\u0e1a\u0e49\u0e32\u0e19\u0e01\u0e23\u0e30\u0e40\u0e09\u0e17 (Bankhacheat Health Promoting Hospital)",
+    "place_id": "ChIJKejp4tvkAjERPT-MxlEawWA"
+  },
+  "12.778317_101.205449_veterinary_care": {
+    "distance": 2496,
+    "name": "VetVan Clinic Map Kha (2) \u0e40\u0e27\u0e17\u0e41\u0e27\u0e19\u0e04\u0e25\u0e35\u0e19\u0e34\u0e04 \u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32",
+    "place_id": "ChIJK4l-7eT7AjERvHpUNKdYbuc"
+  },
+  "12.778317_101.205449_convenience_store": {
+    "distance": 3333,
+    "name": "7-Eleven \u0e2a\u0e32\u0e02\u0e32 \u0e2b\u0e19\u0e2d\u0e07\u0e1c\u0e31\u0e01\u0e2b\u0e19\u0e32\u0e21 (\u0e19\u0e34\u0e04\u0e21\u0e1e\u0e31\u0e12\u0e19\u0e32) (11828)",
+    "place_id": "ChIJE1MbmCnlAjER9C3xqq_tug8"
+  },
+  "12.778317_101.205449_shopping_mall": {
+    "distance": 4237,
+    "name": "\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e40\u0e27\u0e34\u0e25\u0e14\u0e4c \u0e2d\u0e34\u0e40\u0e25\u0e47\u0e04\u0e17\u0e23\u0e34\u0e04 \u0e0b\u0e31\u0e1e\u0e1e\u0e25\u0e32\u0e22\u0e2a\u0e4c \u0e08\u0e33\u0e01\u0e31\u0e14",
+    "place_id": "ChIJt-15WWPmAjERNV2OSJ4Fdmg"
+  },
+  "12.778317_101.205449_market": {
+    "distance": 3803,
+    "name": "\u0e15\u0e33\u0e1a\u0e25 \u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32",
+    "place_id": "ChIJt71p3hDlAjEREMu04UrYAwQ"
+  },
+  "12.778317_101.205449_supermarket": {
+    "distance": 2231,
+    "name": "RB MINI Mart & Restaurant",
+    "place_id": "ChIJSQZSJADlAjER5tlgDuT6GnI"
+  },
+  "12.778317_101.205449_transit_station": null,
+  "12.778317_101.205449_train_station": null,
+  "12.778317_101.205449_bus_station": null,
+  "12.778317_101.205449_beach": {
+    "distance": 3803,
+    "name": "\u0e15\u0e33\u0e1a\u0e25 \u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32",
+    "place_id": "ChIJt71p3hDlAjEREMu04UrYAwQ"
+  },
+  "12.778317_101.205449_hindu_temple": null,
+  "12.778317_101.205449_museum": null,
+  "12.778317_101.205449_tourist_attraction": null,
+  "12.778317_101.205449_scenic_viewpoint": {
+    "distance": 3803,
+    "name": "\u0e15\u0e33\u0e1a\u0e25 \u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32",
+    "place_id": "ChIJt71p3hDlAjEREMu04UrYAwQ"
+  },
+  "12.778317_101.205449_natural_feature": {
+    "distance": 3920,
+    "name": "Khao Khleng",
+    "place_id": "ChIJYyj1p_nkAjERTYk4u_KOvu8"
+  },
+  "12.778317_101.205449_golf_course": {
+    "distance": 3803,
+    "name": "\u0e15\u0e33\u0e1a\u0e25 \u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32",
+    "place_id": "ChIJt71p3hDlAjEREMu04UrYAwQ"
+  },
+  "12.778317_101.205449_restaurant": {
+    "distance": 3743,
+    "name": "\u0e23\u0e35\u0e41\u0e25\u0e47\u0e01 \u0e01\u0e4b\u0e27\u0e22\u0e40\u0e15\u0e35\u0e4b\u0e22\u0e2710 \u0e1a\u0e32\u0e17 \u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32\u0e23\u0e30\u0e22\u0e2d\u0e07 \u0e01\u0e32\u0e41\u0e1f\u0e2a\u0e14 Relax Coffee",
+    "place_id": "ChIJ7QnhCnLlAjER4QZwQoxmoH4"
+  },
+  "12.778317_101.205449_cafe": {
+    "distance": 4550,
+    "name": "\u0e25\u0e39\u0e01\u0e2b\u0e27\u0e49\u0e32\u0e01\u0e32\u0e41\u0e1f \u0e2a\u0e32\u0e02\u0e32\u0e1b\u0e31\u0e4a\u0e21\u0e40\u0e0a\u0e25\u0e25\u0e4c\u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32",
+    "place_id": "ChIJiQG4gXPlAjERzxyOe7IMB2k"
+  },
+  "12.778317_101.205449_gym": {
+    "distance": 2815,
+    "name": "\u0e0b.\u0e0b\u0e38\u0e49\u0e21\u0e15\u0e49\u0e19\u0e21\u0e30\u0e21\u0e48\u0e27\u0e07",
+    "place_id": "ChIJN09VvCzlAjERuEJCxULqBac"
+  },
+  "12.778317_101.205449_spa": {
+    "distance": 3454,
+    "name": "KAYA Massage & Spa",
+    "place_id": "ChIJIYeJH__lAjERvv1telwqAUM"
+  },
+  "12.778317_101.205449_hotel": {
+    "distance": 3803,
+    "name": "\u0e15\u0e33\u0e1a\u0e25 \u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32",
+    "place_id": "ChIJt71p3hDlAjEREMu04UrYAwQ"
+  },
+  "12.778317_101.205449_university": null,
+  "13.761704_100.542724_school": {
+    "distance": 4213,
+    "name": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e21\u0e32\u0e41\u0e15\u0e23\u0e4c\u0e40\u0e14\u0e2d\u0e35\u0e27\u0e34\u0e17\u0e22\u0e32\u0e25\u0e31\u0e22",
+    "place_id": "ChIJd2nx5dqe4jAR9-W3qAuCtiU"
+  },
+  "13.761704_100.542724_park": {
+    "distance": 439,
+    "name": "\u0e2a\u0e27\u0e19\u0e2a\u0e31\u0e19\u0e15\u0e34\u0e20\u0e32\u0e1e",
+    "place_id": "ChIJ144wX7ee4jARIDsLPbMAAQ8"
+  },
+  "13.761704_100.542724_hospital": {
+    "distance": 1750,
+    "name": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e1e\u0e0d\u0e32\u0e44\u0e17 1",
+    "place_id": "ChIJ52Zun7We4jARuztWCQlez9g"
+  },
+  "13.761704_100.542724_veterinary_care": {
+    "distance": 2730,
+    "name": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e2a\u0e31\u0e15\u0e27\u0e4c\u0e2a\u0e2b\u0e21\u0e34\u0e15\u0e23",
+    "place_id": "ChIJFS6xkJKe4jARZ0ApyTenNE8"
+  },
+  "13.761704_100.542724_convenience_store": {
+    "distance": 2156,
+    "name": "7-Eleven \u0e2a\u0e32\u0e02\u0e32 \u0e0b.\u0e1b\u0e23\u0e30\u0e0a\u0e32\u0e2a\u0e07\u0e40\u0e04\u0e23\u0e32\u0e30\u0e2b\u0e4c 4/1 (00047)",
+    "place_id": "ChIJYzz3Q5Se4jAR4ABZWAtiS8k"
+  },
+  "13.761704_100.542724_shopping_mall": {
+    "distance": 3610,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e1b\u0e17\u0e38\u0e21\u0e27\u0e31\u0e19\u0e1b\u0e23\u0e34\u0e4a\u0e19\u0e40\u0e0b\u0e2a",
+    "place_id": "ChIJFaLTtdKe4jARdKflx49LvdA"
+  },
+  "13.761704_100.542724_market": {
+    "distance": 6410,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.761704_100.542724_supermarket": {
+    "distance": 3325,
+    "name": "\u0e42\u0e25\u0e15\u0e31\u0e2a \u0e1f\u0e2d\u0e23\u0e4c\u0e08\u0e39\u0e19",
+    "place_id": "ChIJn11wDI2e4jARQHMnUDCDSFQ"
+  },
+  "13.761704_100.542724_transit_station": {
+    "distance": 5126,
+    "name": "\u0e1a\u0e49\u0e32\u0e19\u0e04\u0e23\u0e31\u0e27\u0e40\u0e2b\u0e19\u0e37\u0e2d",
+    "place_id": "ChIJlYTAGjOZ4jARbh1MxubVVFM"
+  },
+  "13.761704_100.542724_train_station": {
+    "distance": 1790,
+    "name": "\u0e1e\u0e0d\u0e32\u0e44\u0e17",
+    "place_id": "ChIJq6paC8qe4jARc870JwI3e88"
+  },
+  "13.761704_100.542724_bus_station": {
+    "distance": 1084,
+    "name": "\u0e40\u0e0b\u0e47\u0e19\u0e08\u0e39\u0e23\u0e35\u0e48",
+    "place_id": "ChIJXQrQv7ae4jARBbkHze5RMv0"
+  },
+  "13.761704_100.542724_beach": {
+    "distance": 6410,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.761704_100.542724_hindu_temple": {
+    "distance": 4168,
+    "name": "God Shiva Shirne",
+    "place_id": "ChIJEwN1KACf4jARLpcT9yfsNKE"
+  },
+  "13.761704_100.542724_museum": {
+    "distance": 3000,
+    "name": "\u0e1e\u0e34\u0e1e\u0e34\u0e18\u0e20\u0e31\u0e13\u0e11\u0e4c\u0e21\u0e32\u0e14\u0e32\u0e21\u0e17\u0e38\u0e2a\u0e42\u0e0b \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e",
+    "place_id": "ChIJHQcCZM2e4jARaESgxhA9-HM"
+  },
+  "13.761704_100.542724_tourist_attraction": {
+    "distance": 3610,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e1b\u0e17\u0e38\u0e21\u0e27\u0e31\u0e19\u0e1b\u0e23\u0e34\u0e4a\u0e19\u0e40\u0e0b\u0e2a",
+    "place_id": "ChIJFaLTtdKe4jARdKflx49LvdA"
+  },
+  "13.761704_100.542724_scenic_viewpoint": {
+    "distance": 6410,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.761704_100.542724_natural_feature": {
+    "distance": 3225,
+    "name": "gift wonderland",
+    "place_id": "ChIJZWb6i82e4jARg9ZDUs6X7xw"
+  },
+  "13.761704_100.542724_golf_course": {
+    "distance": 6410,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.761704_100.542724_restaurant": {
+    "distance": 3610,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e1b\u0e17\u0e38\u0e21\u0e27\u0e31\u0e19\u0e1b\u0e23\u0e34\u0e4a\u0e19\u0e40\u0e0b\u0e2a",
+    "place_id": "ChIJFaLTtdKe4jARdKflx49LvdA"
+  },
+  "13.761704_100.542724_cafe": {
+    "distance": 1733,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21 \u0e40\u0e14\u0e2d\u0e30 \u0e2a\u0e38\u0e42\u0e01\u0e28\u0e25 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e",
+    "place_id": "ChIJk3JVBLae4jARnD9sNUVBPT8"
+  },
+  "13.761704_100.542724_gym": {
+    "distance": 3090,
+    "name": "\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e2d\u0e07\u0e17\u0e31\u0e1e\u0e1a\u0e01",
+    "place_id": "ChIJpXDQIyGc4jAR4tNufdRXqwo"
+  },
+  "13.761704_100.542724_spa": {
+    "distance": 3996,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e40\u0e0b\u0e47\u0e19\u0e17\u0e32\u0e23\u0e32\u0e41\u0e01\u0e23\u0e19\u0e14\u0e4c \u0e1a\u0e32\u0e07\u0e01\u0e2d\u0e01 \u0e04\u0e2d\u0e19\u0e40\u0e27\u0e19\u0e0a\u0e31\u0e19 \u0e40\u0e0b\u0e47\u0e19\u0e40\u0e15\u0e2d\u0e23\u0e4c \u0e41\u0e2d\u0e17 \u0e40\u0e0b\u0e47\u0e19\u0e17\u0e23\u0e31\u0e25\u0e40\u0e27\u0e34\u0e25\u0e14\u0e4c",
+    "place_id": "ChIJf1YJeC-Z4jARNNLn8M9QwMw"
+  },
+  "13.761704_100.542724_hotel": {
+    "distance": 6410,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.761704_100.542724_university": {
+    "distance": 1336,
+    "name": "\u0e2d\u0e32\u0e04\u0e32\u0e23 \u0e21\u0e34\u0e27",
+    "place_id": "ChIJxyt70KKe4jARdkddwICIY-o"
+  },
+  "13.802168_100.581081_school": {
+    "distance": 4296,
+    "name": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e40\u0e0b\u0e19\u0e15\u0e4c\u0e08\u0e2d\u0e2b\u0e4c\u0e19",
+    "place_id": "ChIJ51d-5ESc4jARDS6q4BZe7PM"
+  },
+  "13.802168_100.581081_park": {
+    "distance": 6039,
+    "name": "\u0e2a\u0e27\u0e19\u0e08\u0e15\u0e38\u0e08\u0e31\u0e01\u0e23",
+    "place_id": "ChIJnZuu10Oc4jAR0DkLPbMAAQ8"
+  },
+  "13.802168_100.581081_hospital": {
+    "distance": 2990,
+    "name": "\u0e27\u0e35\u0e23\u0e14\u0e32 \u0e04\u0e25\u0e34\u0e19\u0e34\u0e01",
+    "place_id": "ChIJR53G_b2d4jAR0WGrEMaQ8AU"
+  },
+  "13.802168_100.581081_veterinary_care": {
+    "distance": 3939,
+    "name": "\u0e2b\u0e21\u0e2d\u0e2b\u0e0d\u0e34\u0e07\u0e25\u0e32\u0e14\u0e1e\u0e23\u0e49\u0e32\u0e27\u0e2a\u0e31\u0e15\u0e27\u0e41\u0e1e\u0e17\u0e22\u0e4c",
+    "place_id": "ChIJZRVPiU6c4jARHfPmHZB84A4"
+  },
+  "13.802168_100.581081_convenience_store": {
+    "distance": 4022,
+    "name": "7-Eleven \u0e2a\u0e32\u0e02\u0e32 \u0e25\u0e32\u0e14\u0e1e\u0e23\u0e49\u0e32\u0e27 80 (\u0e23\u0e38\u0e48\u0e07\u0e40\u0e23\u0e35\u0e2d\u0e07) (07312)",
+    "place_id": "ChIJhR1yuXCe4jARLVWwGGfE0BM"
+  },
+  "13.802168_100.581081_shopping_mall": {
+    "distance": 703,
+    "name": "\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e2a\u0e2b\u0e1e\u0e23\u0e1e\u0e23\u0e2b\u0e21 \u0e08\u0e33\u0e01\u0e31\u0e14",
+    "place_id": "ChIJK65X3Lad4jARbKUKKbsMZzo"
+  },
+  "13.802168_100.581081_market": {
+    "distance": 14961,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.802168_100.581081_supermarket": {
+    "distance": 3085,
+    "name": "\u0e41\u0e21\u0e4a\u0e01\u0e0b\u0e4c\u0e41\u0e27\u0e25\u0e39 \u0e27\u0e31\u0e07\u0e2b\u0e34\u0e19 \u0e1e\u0e25\u0e32\u0e0b\u0e48\u0e32\u0e25\u0e32\u0e01\u0e39\u0e19",
+    "place_id": "ChIJI-XmN6Gd4jARjXGIv2pxsRM"
+  },
+  "13.802168_100.581081_transit_station": {
+    "distance": 3953,
+    "name": "\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e23\u0e31\u0e0a\u0e14\u0e32\u0e20\u0e34\u0e40\u0e29\u0e01",
+    "place_id": "ChIJ12YKMzWc4jAR-wXDfSLfeX0"
+  },
+  "13.802168_100.581081_train_station": {
+    "distance": 6794,
+    "name": "\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e23\u0e16\u0e44\u0e1f\u0e1f\u0e49\u0e32\u0e43\u0e15\u0e49\u0e14\u0e34\u0e19\u0e2a\u0e38\u0e17\u0e18\u0e34\u0e2a\u0e32\u0e23",
+    "place_id": "ChIJo7fbVi2c4jARMEXS2u7j0I4"
+  },
+  "13.802168_100.581081_bus_station": {
+    "distance": 5351,
+    "name": "\u0e01\u0e32\u0e23\u0e1a\u0e34\u0e19\u0e44\u0e17\u0e22",
+    "place_id": "ChIJeQZNB0ec4jARXMC7PN7xH3E"
+  },
+  "13.802168_100.581081_beach": {
+    "distance": 14961,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.802168_100.581081_hindu_temple": {
+    "distance": 2389,
+    "name": "\u5343\u624b\u89c0\u4e16\u97f3\u83e9\u85a9",
+    "place_id": "ChIJa1GEHb2d4jAR5HwYx56ohHw"
+  },
+  "13.802168_100.581081_museum": {
+    "distance": 5867,
+    "name": "\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e1c\u0e35\u0e40\u0e2a\u0e37\u0e49\u0e2d\u0e41\u0e25\u0e30\u0e41\u0e21\u0e25\u0e07 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f",
+    "place_id": "ChIJN1kUQ1yc4jARjpGEPYyF0S0"
+  },
+  "13.802168_100.581081_tourist_attraction": {
+    "distance": 5867,
+    "name": "\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e1c\u0e35\u0e40\u0e2a\u0e37\u0e49\u0e2d\u0e41\u0e25\u0e30\u0e41\u0e21\u0e25\u0e07 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f",
+    "place_id": "ChIJN1kUQ1yc4jARjpGEPYyF0S0"
+  },
+  "13.802168_100.581081_scenic_viewpoint": {
+    "distance": 14961,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.802168_100.581081_natural_feature": null,
+  "13.802168_100.581081_golf_course": {
+    "distance": 14961,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.802168_100.581081_restaurant": {
+    "distance": 5984,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e40\u0e0b\u0e47\u0e19\u0e17\u0e32\u0e23\u0e32 \u0e41\u0e01\u0e23\u0e19\u0e14\u0e4c \u0e41\u0e2d\u0e17 \u0e40\u0e0b\u0e47\u0e19\u0e17\u0e23\u0e31\u0e25\u0e1e\u0e25\u0e32\u0e0b\u0e48\u0e32 \u0e25\u0e32\u0e14\u0e1e\u0e23\u0e49\u0e32\u0e27 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e",
+    "place_id": "ChIJ40Q1nhWc4jAR7xbEgblbmnA"
+  },
+  "13.802168_100.581081_cafe": {
+    "distance": 2979,
+    "name": "Yes! we are coffee maker.",
+    "place_id": "ChIJiVUeO7Kd4jARMqgwVvp-gnE"
+  },
+  "13.802168_100.581081_gym": {
+    "distance": 5194,
+    "name": "LED Writing Board \u0e01\u0e23\u0e30\u0e14\u0e32\u0e19\u0e40\u0e23\u0e37\u0e2d\u0e07\u0e41\u0e2a\u0e07 \u0e1b\u0e49\u0e32\u0e22\u0e40\u0e23\u0e37\u0e2d\u0e07\u0e41\u0e2a\u0e07 LED \u0e01\u0e23\u0e30\u0e14\u0e32\u0e19\u0e44\u0e1f \u0e1b\u0e49\u0e32\u0e22\u0e44\u0e1f",
+    "place_id": "ChIJ52lpmjec4jARcu0dygrzCPU"
+  },
+  "13.802168_100.581081_spa": {
+    "distance": 5984,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e40\u0e0b\u0e47\u0e19\u0e17\u0e32\u0e23\u0e32 \u0e41\u0e01\u0e23\u0e19\u0e14\u0e4c \u0e41\u0e2d\u0e17 \u0e40\u0e0b\u0e47\u0e19\u0e17\u0e23\u0e31\u0e25\u0e1e\u0e25\u0e32\u0e0b\u0e48\u0e32 \u0e25\u0e32\u0e14\u0e1e\u0e23\u0e49\u0e32\u0e27 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e",
+    "place_id": "ChIJ40Q1nhWc4jAR7xbEgblbmnA"
+  },
+  "13.802168_100.581081_hotel": {
+    "distance": 14961,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.802168_100.581081_university": {
+    "distance": 6772,
+    "name": "\u0e21\u0e2b\u0e32\u0e27\u0e34\u0e17\u0e22\u0e32\u0e25\u0e31\u0e22\u0e23\u0e32\u0e0a\u0e20\u0e31\u0e0f\u0e08\u0e31\u0e19\u0e17\u0e23\u0e40\u0e01\u0e29\u0e21",
+    "place_id": "ChIJ_b98oKud4jARsDILPbMAAQ8"
+  },
+  "13.743808_100.507644_school": {
+    "distance": 3020,
+    "name": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e2a\u0e15\u0e23\u0e35\u0e27\u0e34\u0e17\u0e22\u0e32",
+    "place_id": "ChIJDeWEUBOZ4jAREgh5D9gxPUI"
+  },
+  "13.743808_100.507644_park": {
+    "distance": 3032,
+    "name": "\u0e2a\u0e19\u0e32\u0e21\u0e2b\u0e25\u0e27\u0e07",
+    "place_id": "ChIJ-WOptA2Z4jARRFoeZFcz_Gk"
+  },
+  "13.743808_100.507644_hospital": {
+    "distance": 1315,
+    "name": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e2b\u0e31\u0e27\u0e40\u0e09\u0e35\u0e22\u0e27",
+    "place_id": "ChIJv_GwrDuZ4jAR_Q5LzzEmw58"
+  },
+  "13.743808_100.507644_veterinary_care": {
+    "distance": 2292,
+    "name": "\u0e04\u0e25\u0e34\u0e19\u0e34\u0e01\u0e2a\u0e31\u0e15\u0e27\u0e4c\u0e14\u0e47\u0e2d\u0e01\u0e40\u0e15\u0e2d\u0e23\u0e4c\u0e08\u0e38\u0e2c\u0e32 (Dr. Chula's Animal Clinic)",
+    "place_id": "ChIJm3EetymZ4jARVQv_m4IfCU0"
+  },
+  "13.743808_100.507644_convenience_store": {
+    "distance": 3995,
+    "name": "\u0e17\u0e47\u0e2d\u0e1b\u0e2a\u0e4c \u0e40\u0e0b\u0e47\u0e19\u0e17\u0e23\u0e31\u0e25 \u0e1a\u0e32\u0e07\u0e23\u0e31\u0e01",
+    "place_id": "ChIJ-YpqSsSY4jARZdin0zDDVCk"
+  },
+  "13.743808_100.507644_shopping_mall": {
+    "distance": 3860,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e1b\u0e17\u0e38\u0e21\u0e27\u0e31\u0e19\u0e1b\u0e23\u0e34\u0e4a\u0e19\u0e40\u0e0b\u0e2a",
+    "place_id": "ChIJFaLTtdKe4jARdKflx49LvdA"
+  },
+  "13.743808_100.507644_market": {
+    "distance": 2368,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.743808_100.507644_supermarket": {
+    "distance": 3995,
+    "name": "\u0e17\u0e47\u0e2d\u0e1b\u0e2a\u0e4c \u0e40\u0e0b\u0e47\u0e19\u0e17\u0e23\u0e31\u0e25 \u0e1a\u0e32\u0e07\u0e23\u0e31\u0e01",
+    "place_id": "ChIJ-YpqSsSY4jARZdin0zDDVCk"
+  },
+  "13.743808_100.507644_transit_station": {
+    "distance": 1434,
+    "name": "\u0e01\u0e32\u0e23\u0e23\u0e16\u0e44\u0e1f\u0e41\u0e2b\u0e48\u0e07\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22",
+    "place_id": "ChIJT-EGk9-e4jARjwm5LA-9vmg"
+  },
+  "13.743808_100.507644_train_station": {
+    "distance": 1434,
+    "name": "\u0e01\u0e32\u0e23\u0e23\u0e16\u0e44\u0e1f\u0e41\u0e2b\u0e48\u0e07\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22",
+    "place_id": "ChIJT-EGk9-e4jARjwm5LA-9vmg"
+  },
+  "13.743808_100.507644_bus_station": {
+    "distance": 849,
+    "name": "\u0e1b\u0e49\u0e32\u0e22\u0e23\u0e16\u0e1b\u0e23\u0e30\u0e08\u0e33\u0e17\u0e32\u0e07 \u0e2b\u0e49\u0e32\u0e07\u0e40\u0e21\u0e2d\u0e23\u0e4c\u0e23\u0e35\u0e04\u0e34\u0e07\u0e40\u0e08\u0e23\u0e34\u0e0d\u0e01\u0e23\u0e38\u0e07",
+    "place_id": "ChIJI4CclhmZ4jARjwV7x7UcLbA"
+  },
+  "13.743808_100.507644_beach": {
+    "distance": 2368,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.743808_100.507644_hindu_temple": {
+    "distance": 4050,
+    "name": "\u0e27\u0e31\u0e14\u0e1e\u0e23\u0e30\u0e28\u0e23\u0e35\u0e21\u0e2b\u0e32\u0e2d\u0e38\u0e21\u0e32\u0e40\u0e17\u0e27\u0e35 (\u0e27\u0e31\u0e14\u0e41\u0e02\u0e01)",
+    "place_id": "ChIJnyXs5dGY4jARxAURliWpDZg"
+  },
+  "13.743808_100.507644_museum": {
+    "distance": 3817,
+    "name": "\u0e2d\u0e32\u0e04\u0e32\u0e23\u0e16\u0e32\u0e27\u0e23\u0e27\u0e31\u0e15\u0e16\u0e38 (\u0e15\u0e36\u0e01\u0e41\u0e14\u0e07)",
+    "place_id": "ChIJF1vCFwyZ4jAR5siCW5OAa0U"
+  },
+  "13.743808_100.507644_tourist_attraction": {
+    "distance": 3860,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e1b\u0e17\u0e38\u0e21\u0e27\u0e31\u0e19\u0e1b\u0e23\u0e34\u0e4a\u0e19\u0e40\u0e0b\u0e2a",
+    "place_id": "ChIJFaLTtdKe4jARdKflx49LvdA"
+  },
+  "13.743808_100.507644_scenic_viewpoint": {
+    "distance": 2368,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.743808_100.507644_natural_feature": {
+    "distance": 1711,
+    "name": "\u0e40\u0e01\u0e32\u0e30\u0e23\u0e31\u0e15\u0e19\u0e42\u0e01\u0e2a\u0e34\u0e19\u0e17\u0e23\u0e4c",
+    "place_id": "ChIJH7iU4BCZ4jAROgypWcy1ISQ"
+  },
+  "13.743808_100.507644_golf_course": {
+    "distance": 2368,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.743808_100.507644_restaurant": {
+    "distance": 3860,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e1b\u0e17\u0e38\u0e21\u0e27\u0e31\u0e19\u0e1b\u0e23\u0e34\u0e4a\u0e19\u0e40\u0e0b\u0e2a",
+    "place_id": "ChIJFaLTtdKe4jARdKflx49LvdA"
+  },
+  "13.743808_100.507644_cafe": {
+    "distance": 6516,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e1a\u0e49\u0e32\u0e19\u0e27\u0e31\u0e07\u0e2b\u0e25\u0e31\u0e07 \u0e23\u0e34\u0e40\u0e27\u0e2d\u0e23\u0e4c\u0e44\u0e0b\u0e14\u0e4c",
+    "place_id": "ChIJHWUWJQqZ4jARAtfHR_Zqabs"
+  },
+  "13.743808_100.507644_gym": {
+    "distance": 4460,
+    "name": "The Aiyapura Bangkok",
+    "place_id": "ChIJE9KKp_qY4jAR-zD_EpuMMLY"
+  },
+  "13.743808_100.507644_spa": {
+    "distance": 3622,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e41\u0e21\u0e19\u0e14\u0e32\u0e23\u0e34\u0e19 \u0e42\u0e2d\u0e40\u0e23\u0e35\u0e22\u0e19\u0e40\u0e15\u0e47\u0e25 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e",
+    "place_id": "ChIJs6CnycSY4jAR5cqJZjPOsgs"
+  },
+  "13.743808_100.507644_hotel": {
+    "distance": 2368,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.743808_100.507644_university": {
+    "distance": 2639,
+    "name": "\u0e21\u0e2b\u0e32\u0e27\u0e34\u0e17\u0e22\u0e32\u0e25\u0e31\u0e22\u0e40\u0e17\u0e04\u0e42\u0e19\u0e42\u0e25\u0e22\u0e35\u0e23\u0e32\u0e0a\u0e21\u0e07\u0e04\u0e25\u0e1e\u0e23\u0e30\u0e19\u0e04\u0e23 \u0e27\u0e34\u0e17\u0e22\u0e32\u0e40\u0e02\u0e15\u0e0a\u0e38\u0e21\u0e1e\u0e23\u0e40\u0e02\u0e15\u0e2d\u0e38\u0e14\u0e21\u0e28\u0e31\u0e01\u0e14\u0e34\u0e4c",
+    "place_id": "ChIJw9h24kaZ4jARePWLiePqBkc"
+  },
+  "13.792433_100.622673_school": {
+    "distance": 952,
+    "name": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e21\u0e31\u0e18\u0e22\u0e21\u0e27\u0e31\u0e14\u0e1a\u0e36\u0e07\u0e17\u0e2d\u0e07\u0e2b\u0e25\u0e32\u0e07",
+    "place_id": "ChIJf3N49gtiHTERI8gTkOBVmXs"
+  },
+  "13.792433_100.622673_park": {
+    "distance": 3192,
+    "name": "\u0e1a\u0e34\u0e4a\u0e01\u0e14\u0e4a\u0e2d\u0e01\u0e04\u0e32\u0e40\u0e1f\u0e48 \u0e04\u0e32\u0e40\u0e1f\u0e48\u0e2b\u0e21\u0e32\u0e43\u0e2b\u0e0d\u0e48\u0e43\u0e08\u0e14\u0e35",
+    "place_id": "ChIJuyVj-bSd4jAR9LAVNymq-8Q"
+  },
+  "13.792433_100.622673_hospital": {
+    "distance": 3620,
+    "name": "Vejthani International Hospital",
+    "place_id": "ChIJLRxJmvZhHTER16LfFQGdd3c"
+  },
+  "13.792433_100.622673_veterinary_care": {
+    "distance": 2209,
+    "name": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e2a\u0e31\u0e15\u0e27\u0e4c\u0e2e\u0e31\u0e19\u0e19\u0e35\u0e48",
+    "place_id": "ChIJ19oS-ABiHTER7qgrBeVSfz4"
+  },
+  "13.792433_100.622673_convenience_store": {
+    "distance": 4475,
+    "name": "7-Eleven \u0e2a\u0e32\u0e02\u0e32 \u0e25\u0e32\u0e14\u0e1e\u0e23\u0e49\u0e32\u0e27 80 \u0e08\u0e38\u0e14 2 (01430)",
+    "place_id": "ChIJDZS_KOGd4jAR-Z8t1nousGE"
+  },
+  "13.792433_100.622673_shopping_mall": {
+    "distance": 2540,
+    "name": "\u0e04\u0e23\u0e34\u0e2a\u0e15\u0e31\u0e25 \u0e14\u0e35\u0e44\u0e0b\u0e19\u0e4c \u0e40\u0e0b\u0e47\u0e19\u0e40\u0e15\u0e2d\u0e23\u0e4c (\u0e0b\u0e35\u0e14\u0e35\u0e0b\u0e35)",
+    "place_id": "ChIJJybTj4md4jARGWKEOKkuTVA"
+  },
+  "13.792433_100.622673_market": {
+    "distance": 19625,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.792433_100.622673_supermarket": {
+    "distance": 1575,
+    "name": "\u0e21\u0e34\u0e19\u0e34\u0e1a\u0e34\u0e4a\u0e01\u0e0b\u0e35 \u0e0b\u0e2d\u0e22\u0e42\u0e1e\u0e18\u0e34\u0e4c\u0e41\u0e01\u0e49\u0e27",
+    "place_id": "ChIJe12AH2tiHTER6aQeY42ebm8"
+  },
+  "13.792433_100.622673_transit_station": {
+    "distance": 2486,
+    "name": "\u0e2b\u0e49\u0e32\u0e07\u0e2d\u0e34\u0e21\u0e1e\u0e34\u0e40\u0e23\u0e35\u0e22\u0e25\u0e25\u0e32\u0e14\u0e1e\u0e23\u0e49\u0e32\u0e27",
+    "place_id": "ChIJU3bFu_ud4jARFKsTeT5ti4I"
+  },
+  "13.792433_100.622673_train_station": null,
+  "13.792433_100.622673_bus_station": {
+    "distance": 3162,
+    "name": "\u0e2b\u0e21\u0e39\u0e48\u0e1a\u0e49\u0e32\u0e19\u0e41\u0e01\u0e23\u0e19\u0e14\u0e4c\u0e27\u0e34\u0e25\u0e40\u0e25\u0e08",
+    "place_id": "ChIJ_wKPOOWd4jARNbBY0o1oHBQ"
+  },
+  "13.792433_100.622673_beach": {
+    "distance": 19625,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.792433_100.622673_hindu_temple": {
+    "distance": 5181,
+    "name": "\u0e1a\u0e49\u0e32\u0e19\u0e21\u0e19\u0e15\u0e4c\u0e21\u0e32\u0e22\u0e32 Baanmonmaya",
+    "place_id": "ChIJ95R3WeCd4jARwvzUqYBt5ek"
+  },
+  "13.792433_100.622673_museum": {
+    "distance": 340,
+    "name": "\u0e41\u0e01\u0e25\u0e25\u0e2d\u0e23\u0e35\u0e48100 \u0e25\u0e49\u0e32\u0e19 \u0e40\u0e01\u0e49\u0e32 \u0e2d\u0e32\u0e23\u0e4c\u0e15 \u0e2a\u0e22\u0e32\u0e21",
+    "place_id": "ChIJQbsIXX5jHTERu06Zik5GsV8"
+  },
+  "13.792433_100.622673_tourist_attraction": {
+    "distance": 3339,
+    "name": "\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e25\u0e35\u0e1f\u0e27\u0e34\u0e48\u0e07 \u0e2d\u0e35\u0e0b\u0e35\u0e48 \u0e08\u0e33\u0e01\u0e31\u0e14",
+    "place_id": "ChIJRTRCrm9iHTERzjg9JmMz0Lc"
+  },
+  "13.792433_100.622673_scenic_viewpoint": {
+    "distance": 19625,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.792433_100.622673_natural_feature": null,
+  "13.792433_100.622673_golf_course": {
+    "distance": 19625,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.792433_100.622673_restaurant": {
+    "distance": 1950,
+    "name": "\u0e02\u0e49\u0e32\u0e27\u0e41\u0e01\u0e07\u0e1b\u0e31\u0e01\u0e29\u0e4c\u0e43\u0e15\u0e49",
+    "place_id": "ChIJMUfIVgNiHTER3yRPxhlT__E"
+  },
+  "13.792433_100.622673_cafe": {
+    "distance": 2177,
+    "name": "\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e40\u0e1e\u0e2d\u0e23\u0e4c\u0e40\u0e1f\u0e01\u0e15\u0e4c \u0e40\u0e14\u0e2a\u0e17\u0e34\u0e19\u0e35\u0e48 \u0e2d\u0e34\u0e19\u0e40\u0e15\u0e2d\u0e23\u0e4c\u0e40\u0e19\u0e0a\u0e31\u0e48\u0e19\u0e41\u0e19\u0e25 \u0e08\u0e33\u0e01\u0e31\u0e14",
+    "place_id": "ChIJt8UPoIqd4jARnc3i-EUMPc0"
+  },
+  "13.792433_100.622673_gym": {
+    "distance": 1616,
+    "name": "Let's Dance Studio Ladphrao 87",
+    "place_id": "ChIJV_45RgpiHTERwuN4o_gENag"
+  },
+  "13.792433_100.622673_spa": {
+    "distance": 2606,
+    "name": "Dejavu Sauna",
+    "place_id": "ChIJuUifwgFiHTERVLfYiEewswo"
+  },
+  "13.792433_100.622673_hotel": {
+    "distance": 19625,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.792433_100.622673_university": {
+    "distance": 3830,
+    "name": "\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17 \u0e17\u0e35\u0e27\u0e35\u0e1a\u0e39\u0e23\u0e1e\u0e32 \u0e08\u0e33\u0e01\u0e31\u0e14",
+    "place_id": "ChIJA3CC9oid4jARLHnpKlIkAao"
+  },
+  "13.705100_100.386910_school": {
+    "distance": 4514,
+    "name": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e1b\u0e31\u0e0d\u0e0d\u0e32\u0e27\u0e23\u0e04\u0e38\u0e13",
+    "place_id": "ChIJNSw_X4C94jARqdxSWxNQ_2E"
+  },
+  "13.705100_100.386910_park": {
+    "distance": 1313,
+    "name": "\u0e1a\u0e49\u0e32\u0e19\u0e41\u0e21\u0e19",
+    "place_id": "ChIJCwyCQgCX4jAR-5jv0E1F2xE"
+  },
+  "13.705100_100.386910_hospital": {
+    "distance": 2842,
+    "name": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e40\u0e01\u0e29\u0e21\u0e23\u0e32\u0e29\u0e0e\u0e23\u0e4c \u0e1a\u0e32\u0e07\u0e41\u0e04",
+    "place_id": "ChIJDyPFbMyX4jAR_4Mr-VoMk_g"
+  },
+  "13.705100_100.386910_veterinary_care": {
+    "distance": 650,
+    "name": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e2a\u0e31\u0e15\u0e27\u0e4c \u0e2d\u0e19\u0e38\u0e23\u0e31\u0e01\u0e29\u0e4c\u0e40\u0e21\u0e15\u0e15\u0e32\u0e2a\u0e31\u0e15\u0e27\u0e4c",
+    "place_id": "ChIJ84yhUjCW4jARyVYSl_reiAY"
+  },
+  "13.705100_100.386910_convenience_store": {
+    "distance": 1166,
+    "name": "7-Eleven \u0e2a\u0e32\u0e02\u0e32 LPN \u0e40\u0e1e\u0e0a\u0e23\u0e40\u0e01\u0e29\u0e21 98 (10761)",
+    "place_id": "ChIJT6vNfDqW4jARB1cgIJSx26M"
+  },
+  "13.705100_100.386910_shopping_mall": {
+    "distance": 1354,
+    "name": "\u0e1a\u0e34\u0e4a\u0e01\u0e0b\u0e35 \u0e0b\u0e39\u0e40\u0e1b\u0e2d\u0e23\u0e4c\u0e40\u0e0b\u0e47\u0e19\u0e40\u0e15\u0e2d\u0e23\u0e4c \u0e40\u0e1e\u0e0a\u0e23\u0e40\u0e01\u0e29\u0e21 1",
+    "place_id": "ChIJn5Y9OSWW4jARoOBAMsDS3Ww"
+  },
+  "13.705100_100.386910_market": {
+    "distance": 23614,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.705100_100.386910_supermarket": {
+    "distance": 1354,
+    "name": "\u0e1a\u0e34\u0e4a\u0e01\u0e0b\u0e35 \u0e0b\u0e39\u0e40\u0e1b\u0e2d\u0e23\u0e4c\u0e40\u0e0b\u0e47\u0e19\u0e40\u0e15\u0e2d\u0e23\u0e4c \u0e40\u0e1e\u0e0a\u0e23\u0e40\u0e01\u0e29\u0e21 1",
+    "place_id": "ChIJn5Y9OSWW4jARoOBAMsDS3Ww"
+  },
+  "13.705100_100.386910_transit_station": {
+    "distance": 1565,
+    "name": "\u0e40\u0e1e\u0e0a\u0e23\u0e40\u0e01\u0e29\u0e21 \u0e0b\u0e2d\u0e22 94",
+    "place_id": "ChIJbV5JoDGW4jARsC-wPSUwdsA"
+  },
+  "13.705100_100.386910_train_station": null,
+  "13.705100_100.386910_bus_station": null,
+  "13.705100_100.386910_beach": {
+    "distance": 23614,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.705100_100.386910_hindu_temple": null,
+  "13.705100_100.386910_museum": {
+    "distance": 1301,
+    "name": "\u0e1e\u0e23\u0e30\u0e20\u0e39\u0e21\u0e34",
+    "place_id": "ChIJl82qdHaX4jARaIU7sk55m3U"
+  },
+  "13.705100_100.386910_tourist_attraction": {
+    "distance": 2683,
+    "name": "\u0e17\u0e48\u0e32\u0e2a\u0e38\u0e02\u0e2a\u0e31\u0e19\u0e15\u0e4c",
+    "place_id": "ChIJ572YvhCX4jARFp8DpA4o6xU"
+  },
+  "13.705100_100.386910_scenic_viewpoint": {
+    "distance": 23614,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.705100_100.386910_natural_feature": null,
+  "13.705100_100.386910_golf_course": {
+    "distance": 23614,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.705100_100.386910_restaurant": {
+    "distance": 1006,
+    "name": "\u0e19\u0e32\u0e22\u0e0a\u0e34\u0e21\u0e42\u0e08\u0e4a\u0e01\u0e2e\u0e48\u0e2d\u0e07\u0e01\u0e07\u0e2a\u0e39\u0e15\u0e23\u0e02\u0e49\u0e32\u0e27\u0e01\u0e25\u0e49\u0e2d\u0e07",
+    "place_id": "ChIJq88BrjGW4jARselAC99QWAs"
+  },
+  "13.705100_100.386910_cafe": {
+    "distance": 2749,
+    "name": "\u0e44\u0e21\u0e42\u0e25\u0e14\u0e34\u0e1a A&T \u0e1a\u0e32\u0e07\u0e41\u0e04",
+    "place_id": "ChIJB9HnUkeW4jARWoihWokbVH0"
+  },
+  "13.705100_100.386910_gym": {
+    "distance": 3143,
+    "name": "\u0e2a\u0e16\u0e32\u0e1a\u0e31\u0e19\u0e42\u0e22\u0e04\u0e30\u0e28\u0e32\u0e2a\u0e15\u0e23\u0e4c\u0e41\u0e25\u0e30\u0e01\u0e32\u0e23\u0e1e\u0e31\u0e12\u0e19\u0e32",
+    "place_id": "ChIJCSvNw86X4jARgWk7JmHyHMg"
+  },
+  "13.705100_100.386910_spa": {
+    "distance": 1706,
+    "name": "Garden spa \u0e01\u0e32\u0e23\u0e4c\u0e40\u0e14\u0e49\u0e19 \u0e2a\u0e1b\u0e32",
+    "place_id": "ChIJkdzNJiWW4jARcruAgjd5Afw"
+  },
+  "13.705100_100.386910_hotel": {
+    "distance": 23614,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.705100_100.386910_university": {
+    "distance": 6343,
+    "name": "Die bmeisten",
+    "place_id": "ChIJFU0n05G94jARbk_aIN9fTGY"
+  },
+  "13.782742_100.539055_school": {
+    "distance": 5171,
+    "name": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e2a\u0e38\u0e23\u0e28\u0e31\u0e01\u0e14\u0e34\u0e4c\u0e21\u0e19\u0e15\u0e23\u0e35",
+    "place_id": "ChIJNRRZ8Z6e4jARiflztIZQEK0"
+  },
+  "13.782742_100.539055_park": {
+    "distance": 4778,
+    "name": "\u0e2a\u0e27\u0e19\u0e2a\u0e31\u0e19\u0e15\u0e34\u0e20\u0e32\u0e1e",
+    "place_id": "ChIJ144wX7ee4jARIDsLPbMAAQ8"
+  },
+  "13.782742_100.539055_hospital": {
+    "distance": 4876,
+    "name": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e1e\u0e0d\u0e32\u0e44\u0e17 1",
+    "place_id": "ChIJ52Zun7We4jARuztWCQlez9g"
+  },
+  "13.782742_100.539055_veterinary_care": {
+    "distance": 4030,
+    "name": "\u0e04\u0e25\u0e34\u0e19\u0e34\u0e01\u0e2b\u0e21\u0e2d\u0e01\u0e21\u0e25\u0e23\u0e31\u0e01\u0e29\u0e32\u0e2a\u0e31\u0e15\u0e27\u0e4c",
+    "place_id": "ChIJo0pCoPyb4jARRa63-gWDLNg"
+  },
+  "13.782742_100.539055_convenience_store": {
+    "distance": 1918,
+    "name": "7-Eleven \u0e2a\u0e32\u0e02\u0e32 \u0e1e\u0e2b\u0e25\u0e42\u0e22\u0e18\u0e34\u0e19 2 (03788)",
+    "place_id": "ChIJjzz2C76e4jARtB000u4P1xw"
+  },
+  "13.782742_100.539055_shopping_mall": {
+    "distance": 3625,
+    "name": "\u0e40\u0e0b\u0e47\u0e19\u0e08\u0e39\u0e23\u0e35\u0e48 \u0e40\u0e14\u0e2d\u0e30 \u0e21\u0e39\u0e1f\u0e27\u0e35\u0e48 \u0e1e\u0e25\u0e32\u0e0b\u0e48\u0e32",
+    "place_id": "ChIJo_LGCMue4jARRe6QDuwzzPI"
+  },
+  "13.782742_100.539055_market": {
+    "distance": 7658,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.782742_100.539055_supermarket": {
+    "distance": 2482,
+    "name": "\u0e17\u0e47\u0e2d\u0e1b\u0e2a\u0e4c \u0e21\u0e34\u0e19\u0e34\u0e0b\u0e39\u0e40\u0e1b\u0e2d\u0e23\u0e4c\u0e21\u0e32\u0e23\u0e4c\u0e40\u0e01\u0e47\u0e15 | \u0e2a\u0e32\u0e02\u0e32\u0e1e\u0e34\u0e1a\u0e39\u0e25\u0e27\u0e31\u0e12\u0e19\u0e32 8",
+    "place_id": "ChIJB_PSnkeW4jARMGQArJ1lW74"
+  },
+  "13.782742_100.539055_transit_station": {
+    "distance": 5480,
+    "name": "\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e1a\u0e32\u0e07\u0e0b\u0e37\u0e48\u0e2d",
+    "place_id": "ChIJo7eFMQ2c4jARaSxXqISHsTs"
+  },
+  "13.782742_100.539055_train_station": {
+    "distance": 2616,
+    "name": "Sam Sen",
+    "place_id": "ChIJL7Fxtqqe4jAR2CSEysTEArU"
+  },
+  "13.782742_100.539055_bus_station": {
+    "distance": 1583,
+    "name": "\u0e15\u0e23\u0e07\u0e02\u0e49\u0e32\u0e21\u0e0b\u0e2d\u0e22\u0e23\u0e32\u0e0a\u0e04\u0e23\u0e39",
+    "place_id": "ChIJz7eNVaae4jARL6FMAPfrR4w"
+  },
+  "13.782742_100.539055_beach": {
+    "distance": 7658,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.782742_100.539055_hindu_temple": {
+    "distance": 1940,
+    "name": "Ganesha Veerakanapati Shrine",
+    "place_id": "ChIJry0OJQCd4jARrUhv5C59cws"
+  },
+  "13.782742_100.539055_museum": {
+    "distance": 3549,
+    "name": "\u0e1e\u0e34\u0e1e\u0e34\u0e18\u0e20\u0e31\u0e13\u0e11\u0e4c\u0e40\u0e14\u0e47\u0e01\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23 \u0e41\u0e2b\u0e48\u0e07\u0e17\u0e35\u0e48 1 (\u0e08\u0e15\u0e38\u0e08\u0e31\u0e01\u0e23)",
+    "place_id": "ChIJiYe3uWuc4jARtODfpOuyAhQ"
+  },
+  "13.782742_100.539055_tourist_attraction": {
+    "distance": 4778,
+    "name": "\u0e2a\u0e27\u0e19\u0e2a\u0e31\u0e19\u0e15\u0e34\u0e20\u0e32\u0e1e",
+    "place_id": "ChIJ144wX7ee4jARIDsLPbMAAQ8"
+  },
+  "13.782742_100.539055_scenic_viewpoint": {
+    "distance": 7658,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.782742_100.539055_natural_feature": null,
+  "13.782742_100.539055_golf_course": {
+    "distance": 7658,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.782742_100.539055_restaurant": {
+    "distance": 4170,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21 \u0e40\u0e14\u0e2d\u0e30 \u0e2a\u0e38\u0e42\u0e01\u0e28\u0e25 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e",
+    "place_id": "ChIJk3JVBLae4jARnD9sNUVBPT8"
+  },
+  "13.782742_100.539055_cafe": {
+    "distance": 4170,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21 \u0e40\u0e14\u0e2d\u0e30 \u0e2a\u0e38\u0e42\u0e01\u0e28\u0e25 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e",
+    "place_id": "ChIJk3JVBLae4jARnD9sNUVBPT8"
+  },
+  "13.782742_100.539055_gym": {
+    "distance": 4372,
+    "name": "\u0e2a\u0e19\u0e32\u0e21\u0e01\u0e35\u0e2c\u0e32\u0e01\u0e2d\u0e07\u0e17\u0e31\u0e1e\u0e1a\u0e01",
+    "place_id": "ChIJpXDQIyGc4jAR4tNufdRXqwo"
+  },
+  "13.782742_100.539055_spa": {
+    "distance": 565,
+    "name": "\u0e1a\u0e49\u0e32\u0e19\u0e15\u0e33\u0e19\u0e32\u0e19\u0e44\u0e17\u0e22 \u0e17\u0e34\u0e0a\u0e32",
+    "place_id": "ChIJHfZV_Ryc4jARS2Ok9s840Fo"
+  },
+  "13.782742_100.539055_hotel": {
+    "distance": 7658,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.782742_100.539055_university": {
+    "distance": 4599,
+    "name": "\u0e2d\u0e32\u0e04\u0e32\u0e23 \u0e21\u0e34\u0e27",
+    "place_id": "ChIJxyt70KKe4jARdkddwICIY-o"
+  },
+  "13.806664_100.533175_school": {
+    "distance": 3124,
+    "name": "\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e42\u0e22\u0e18\u0e34\u0e19\u0e1a\u0e39\u0e23\u0e13\u0e30",
+    "place_id": "ChIJzbO6Sl6Z4jAR5KIRxxE1bZ0"
+  },
+  "13.806664_100.533175_park": {
+    "distance": 5179,
+    "name": "\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e1c\u0e35\u0e40\u0e2a\u0e37\u0e49\u0e2d\u0e41\u0e25\u0e30\u0e41\u0e21\u0e25\u0e07 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f",
+    "place_id": "ChIJN1kUQ1yc4jARjpGEPYyF0S0"
+  },
+  "13.806664_100.533175_hospital": {
+    "distance": 8211,
+    "name": "\u0e42\u0e23\u0e07\u0e1e\u0e22\u0e32\u0e1a\u0e32\u0e25\u0e22\u0e31\u0e19\u0e2e\u0e35",
+    "place_id": "ChIJ1VPvUeqb4jARde8FbCQym7Y"
+  },
+  "13.806664_100.533175_veterinary_care": {
+    "distance": 4478,
+    "name": "\u0e04\u0e25\u0e34\u0e19\u0e34\u0e01\u0e2b\u0e21\u0e2d\u0e01\u0e21\u0e25\u0e23\u0e31\u0e01\u0e29\u0e32\u0e2a\u0e31\u0e15\u0e27\u0e4c",
+    "place_id": "ChIJo0pCoPyb4jARRa63-gWDLNg"
+  },
+  "13.806664_100.533175_convenience_store": {
+    "distance": 8121,
+    "name": "7-Eleven \u0e2a\u0e32\u0e02\u0e32 \u0e1a\u0e32\u0e07\u0e01\u0e23\u0e27\u0e22 (00049)",
+    "place_id": "ChIJBWa8RZSb4jARfrGVNSNSD1Y"
+  },
+  "13.806664_100.533175_shopping_mall": {
+    "distance": 4522,
+    "name": "\u0e40\u0e08\u0e40\u0e08\u0e21\u0e2d\u0e25\u0e25\u0e4c \u0e08\u0e15\u0e38\u0e08\u0e31\u0e01\u0e23 \u0e15\u0e34\u0e14\u0e41\u0e2d\u0e23\u0e4c",
+    "place_id": "ChIJQ2IA1xSc4jARPUC_qVZP9U4"
+  },
+  "13.806664_100.533175_market": {
+    "distance": 10208,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.806664_100.533175_supermarket": {
+    "distance": 4009,
+    "name": "\u0e23\u0e49\u0e32\u0e19\u0e42\u0e04\u0e23\u0e07\u0e01\u0e32\u0e23\u0e2b\u0e25\u0e27\u0e07 \u0e2a\u0e32\u0e02\u0e32 \u0e15\u0e25\u0e32\u0e14 \u0e2d.\u0e15.\u0e01.",
+    "place_id": "ChIJmSTqGBSc4jARN-amj_negC0"
+  },
+  "13.806664_100.533175_transit_station": {
+    "distance": 2371,
+    "name": "\u0e1a\u0e32\u0e07\u0e42\u0e1e",
+    "place_id": "ChIJB5CkeY2b4jARmk1tgN0EXeI"
+  },
+  "13.806664_100.533175_train_station": {
+    "distance": 7393,
+    "name": "\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e23\u0e16\u0e44\u0e1f\u0e0a\u0e38\u0e21\u0e17\u0e32\u0e07\u0e1a\u0e32\u0e07\u0e0b\u0e37\u0e48\u0e2d",
+    "place_id": "ChIJ3xi3yXKc4jARG19CJNIMDmY"
+  },
+  "13.806664_100.533175_bus_station": {
+    "distance": 5575,
+    "name": "Transport Terminal 2 Arrival",
+    "place_id": "ChIJ8Wi30mic4jARahznfRG10xI"
+  },
+  "13.806664_100.533175_beach": {
+    "distance": 10208,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.806664_100.533175_hindu_temple": {
+    "distance": 4370,
+    "name": "\u0e27\u0e31\u0e14\u0e1e\u0e23\u0e30\u0e28\u0e34\u0e27\u0e30\u0e40\u0e08\u0e49\u0e32",
+    "place_id": "ChIJXZ8NSDyd4jARwuta8oUQtIM"
+  },
+  "13.806664_100.533175_museum": {
+    "distance": 5179,
+    "name": "\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e1c\u0e35\u0e40\u0e2a\u0e37\u0e49\u0e2d\u0e41\u0e25\u0e30\u0e41\u0e21\u0e25\u0e07 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f",
+    "place_id": "ChIJN1kUQ1yc4jARjpGEPYyF0S0"
+  },
+  "13.806664_100.533175_tourist_attraction": {
+    "distance": 5179,
+    "name": "\u0e2d\u0e38\u0e17\u0e22\u0e32\u0e19\u0e1c\u0e35\u0e40\u0e2a\u0e37\u0e49\u0e2d\u0e41\u0e25\u0e30\u0e41\u0e21\u0e25\u0e07 \u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e2f",
+    "place_id": "ChIJN1kUQ1yc4jARjpGEPYyF0S0"
+  },
+  "13.806664_100.533175_scenic_viewpoint": {
+    "distance": 10208,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.806664_100.533175_natural_feature": null,
+  "13.806664_100.533175_golf_course": {
+    "distance": 10208,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.806664_100.533175_restaurant": {
+    "distance": 3039,
+    "name": "\u0e01\u0e4b\u0e27\u0e22\u0e40\u0e15\u0e35\u0e4b\u0e22\u0e27 \u0e40\u0e19\u0e37\u0e49\u0e2d \u0e19\u0e32\u0e22\u0e01\u0e4a\u0e07 \u0e40\u0e08\u0e49\u0e32\u0e40\u0e01\u0e48\u0e32",
+    "place_id": "ChIJjVCVFw6c4jARRfF25KSiAfM"
+  },
+  "13.806664_100.533175_cafe": {
+    "distance": 3471,
+    "name": "\u0e42\u0e2d\u0e44\u0e23\u0e2d\u0e2d\u0e19 \u0e04\u0e2d\u0e1f\u0e1f\u0e35\u0e48",
+    "place_id": "ChIJAbF8ABCc4jARx601Ruskt78"
+  },
+  "13.806664_100.533175_gym": {
+    "distance": 4152,
+    "name": "\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e2a\u0e38\u0e02\u0e20\u0e32\u0e1e\u0e0a\u0e38\u0e21\u0e0a\u0e19\u0e2d\u0e38\u0e17\u0e31\u0e22\u0e23\u0e31\u0e15\u0e19\u0e4c",
+    "place_id": "ChIJezuP6RGc4jAR0x9F1ykVzPo"
+  },
+  "13.806664_100.533175_spa": {
+    "distance": 4709,
+    "name": "39 underground sauna",
+    "place_id": "ChIJJX9cFBec4jAR1n2D9WbtZWQ"
+  },
+  "13.806664_100.533175_hotel": {
+    "distance": 10208,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.806664_100.533175_university": {
+    "distance": 5987,
+    "name": "\u0e2a\u0e33\u0e19\u0e31\u0e01\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e04\u0e2d\u0e21\u0e1e\u0e34\u0e27\u0e40\u0e15\u0e2d\u0e23\u0e4c \u0e41\u0e25\u0e30\u0e40\u0e17\u0e04\u0e42\u0e19\u0e42\u0e25\u0e22\u0e35\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e2d\u0e38\u0e15\u0e2a\u0e32\u0e2b\u0e01\u0e23\u0e23\u0e21",
+    "place_id": "ChIJL4_Lvpub4jARL9fmXev-Ik0"
+  },
+  "13.793366_100.540966_subway_station": {
+    "distance": 2621,
+    "name": "\u0e1a\u0e32\u0e07\u0e0b\u0e37\u0e48\u0e2d",
+    "place_id": "ChIJ0Wy3yXKc4jAR4CNvJtGeJaU"
+  },
+  "13.793366_100.540966_point_of_interest": {
+    "distance": 2488,
+    "name": "BAANNUENG @ AREE 5",
+    "place_id": "ChIJee272Byc4jARKEE77RwXb0k"
+  },
+  "13.793366_100.540966_place_of_worship": {
+    "distance": 7503,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.793366_100.540966_sports_club": {
+    "distance": 7503,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.784407_100.701647_subway_station": null,
+  "13.784407_100.701647_point_of_interest": {
+    "distance": 3248,
+    "name": "Siam Piman Hotel",
+    "place_id": "ChIJn3Po3q5eHTERQMjwDxX_Cw0"
+  },
+  "13.784407_100.701647_place_of_worship": {
+    "distance": 33721,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.784407_100.701647_sports_club": {
+    "distance": 33721,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "12.778317_101.205449_subway_station": null,
+  "12.778317_101.205449_point_of_interest": {
+    "distance": 2608,
+    "name": "\u0e2a\u0e33\u0e19\u0e31\u0e01\u0e07\u0e32\u0e19\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e41\u0e25\u0e30\u0e1a\u0e23\u0e23\u0e40\u0e17\u0e32\u0e2a\u0e32\u0e18\u0e32\u0e23\u0e13\u0e20\u0e31\u0e22\u0e40\u0e17\u0e28\u0e1a\u0e32\u0e25\u0e15\u0e33\u0e1a\u0e25\u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32\u0e1e\u0e31\u0e12\u0e19\u0e32",
+    "place_id": "ChIJceAumxPlAjEReIUx_NftAtg"
+  },
+  "12.778317_101.205449_place_of_worship": {
+    "distance": 3803,
+    "name": "\u0e15\u0e33\u0e1a\u0e25 \u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32",
+    "place_id": "ChIJt71p3hDlAjEREMu04UrYAwQ"
+  },
+  "12.778317_101.205449_sports_club": {
+    "distance": 3803,
+    "name": "\u0e15\u0e33\u0e1a\u0e25 \u0e21\u0e32\u0e1a\u0e02\u0e48\u0e32",
+    "place_id": "ChIJt71p3hDlAjEREMu04UrYAwQ"
+  },
+  "13.761704_100.542724_subway_station": {
+    "distance": 4190,
+    "name": "\u0e0a\u0e34\u0e14\u0e25\u0e21",
+    "place_id": "ChIJS2Zj3dqe4jARPnrGEvpD2AU"
+  },
+  "13.761704_100.542724_point_of_interest": {
+    "distance": 3716,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e43\u0e1a\u0e2b\u0e22\u0e01\u0e2a\u0e27\u0e35\u0e17",
+    "place_id": "ChIJxZV5f8ie4jARfhPQmcre5fw"
+  },
+  "13.761704_100.542724_place_of_worship": {
+    "distance": 6410,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.761704_100.542724_sports_club": {
+    "distance": 6410,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.802168_100.581081_subway_station": {
+    "distance": 3953,
+    "name": "\u0e2a\u0e16\u0e32\u0e19\u0e35\u0e23\u0e31\u0e0a\u0e14\u0e32\u0e20\u0e34\u0e40\u0e29\u0e01",
+    "place_id": "ChIJ12YKMzWc4jAR-wXDfSLfeX0"
+  },
+  "13.802168_100.581081_point_of_interest": {
+    "distance": 3409,
+    "name": "\u0e40\u0e2d\u0e2a\u0e1e\u0e35\u0e1a\u0e35\u0e1e\u0e32\u0e23\u0e32\u0e44\u0e14\u0e0b\u0e4c",
+    "place_id": "ChIJmwDb4tKd4jARJOHj3zg3U-U"
+  },
+  "13.802168_100.581081_place_of_worship": {
+    "distance": 14961,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.802168_100.581081_sports_club": {
+    "distance": 14961,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.743808_100.507644_subway_station": {
+    "distance": 1696,
+    "name": "\u0e2b\u0e31\u0e27\u0e25\u0e33\u0e42\u0e1e\u0e07",
+    "place_id": "ChIJe_wtyieZ4jAREmfK4u9gWfk"
+  },
+  "13.743808_100.507644_point_of_interest": {
+    "distance": 926,
+    "name": "\u0e42\u0e23\u0e07\u0e41\u0e23\u0e21\u0e44\u0e0a\u0e19\u0e48\u0e32\u0e17\u0e32\u0e27\u0e19\u0e4c",
+    "place_id": "ChIJiZQjqBiZ4jAR8TopuC02ZNk"
+  },
+  "13.743808_100.507644_place_of_worship": {
+    "distance": 2368,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.743808_100.507644_sports_club": {
+    "distance": 2368,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.792433_100.622673_subway_station": null,
+  "13.792433_100.622673_point_of_interest": {
+    "distance": 3953,
+    "name": "Oun Hotel Bangkok \u0e2d\u0e38\u0e48\u0e19 \u0e42\u0e2e\u0e40\u0e17\u0e25",
+    "place_id": "ChIJuyrnbHliHTERyWcfRi4bIDg"
+  },
+  "13.792433_100.622673_place_of_worship": {
+    "distance": 19625,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.792433_100.622673_sports_club": {
+    "distance": 19625,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.705100_100.386910_subway_station": {
+    "distance": 3998,
+    "name": "Lak Song",
+    "place_id": "ChIJqc_xJcSX4jARkJmrbH44Sjg"
+  },
+  "13.705100_100.386910_point_of_interest": {
+    "distance": 1742,
+    "name": "\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e44\u0e17\u0e22\u0e1e\u0e32\u0e13\u0e34\u0e0a\u0e22\u0e4c \u0e2a\u0e32\u0e02\u0e32\u0e1a\u0e34\u0e4a\u0e01\u0e0b\u0e35\u0e40\u0e1e\u0e0a\u0e23\u0e40\u0e01\u0e29\u0e21",
+    "place_id": "ChIJZZ7jJz2W4jARJ8kwZsr2g9k"
+  },
+  "13.705100_100.386910_place_of_worship": {
+    "distance": 23614,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.705100_100.386910_sports_club": {
+    "distance": 23614,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.782742_100.539055_subway_station": {
+    "distance": 5361,
+    "name": "\u0e1a\u0e32\u0e07\u0e0b\u0e37\u0e48\u0e2d",
+    "place_id": "ChIJ0Wy3yXKc4jAR4CNvJtGeJaU"
+  },
+  "13.782742_100.539055_point_of_interest": {
+    "distance": 1685,
+    "name": "BAANNUENG @ AREE 5",
+    "place_id": "ChIJee272Byc4jARKEE77RwXb0k"
+  },
+  "13.782742_100.539055_place_of_worship": {
+    "distance": 7658,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.782742_100.539055_sports_club": {
+    "distance": 7658,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.806664_100.533175_subway_station": {
+    "distance": 1525,
+    "name": "\u0e1a\u0e32\u0e07\u0e0b\u0e37\u0e48\u0e2d",
+    "place_id": "ChIJ0Wy3yXKc4jAR4CNvJtGeJaU"
+  },
+  "13.806664_100.533175_point_of_interest": {
+    "distance": 1240,
+    "name": "\u0e40\u0e14\u0e2d\u0e30 \u0e2a\u0e40\u0e15\u0e17 \u0e2d\u0e1e\u0e32\u0e23\u0e4c\u0e17\u0e40\u0e21\u0e19\u0e17\u0e4c",
+    "place_id": "ChIJU094yYub4jARdxbOPqCBbVs"
+  },
+  "13.806664_100.533175_place_of_worship": {
+    "distance": 10208,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  },
+  "13.806664_100.533175_sports_club": {
+    "distance": 10208,
+    "name": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23",
+    "place_id": "ChIJ82ENKDJgHTERIEjiXbIAAQE"
+  }
+}

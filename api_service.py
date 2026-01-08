@@ -61,6 +61,8 @@ class SearchResponse(BaseModel):
     query: str
     intent_detected: Dict[str, Any]
     results: List[Dict[str, Any]]
+    message: str = None  # สถานะ/คำอธิบายผลลัพธ์
+    debug: Dict[str, Any] = None  # ข้อมูล Debug (optional)
     
 # --- App Init ---
 app = FastAPI(

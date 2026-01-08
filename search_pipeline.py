@@ -8,9 +8,10 @@ import re
 from pathlib import Path
 from typing import Optional, List, Tuple, Dict, Any
 
-import requests # <--- ต้องมีตัวนี้
+import requests 
 from sentence_transformers import SentenceTransformer
 import chromadb
+import geocoding_service
 
 # ============ CONFIGURATION ============
 VECTOR_DB_PATH = Path("npa_vectorstore") 
@@ -46,7 +47,9 @@ ENHANCED_INTENT_DETECTION_PROMPT = """
   "price_range": {{
     "min": null_or_number,
     "max": null_or_number
-  }}
+  }},
+  "target_location_text": "ชื่อสถานที่เฉพาะ" || null,
+  "avoid_location_text": "ชื่อสถานที่ที่ไม่ต้องการใกล้" || null
 }}
 
 คำอธิบาย Field:
@@ -70,9 +73,17 @@ ENHANCED_INTENT_DETECTION_PROMPT = """
     * "3-5 ล้าน" -> {{ "min": 3000000, "max": 5000000 }}
     * ถ้าไม่พูดถึงราคา ให้เป็น: {{ "min": null, "max": null }}
 6.  "avoid_poi":
-    * POI ที่ผู้ใช้ "ไม่ต้องการ", "ไม่อยากอยู่ใกล้", "หนีห่าง" (ใช้ POI key มาตรฐาน)
     * เช่น "ไม่เอาใกล้โรงเรียน", "หนีความวุ่นวาย (market/mall)"
     * ถ้าไม่ระบุ ให้เป็น: []
+7.  "target_location_text":
+    * ชื่อสถานที่เฉพาะเจาะจงที่ผู้ใช้ต้องการค้นหา "ใกล้ๆ" (ไม่ใช่ POI ทั่วไป)
+    * ตัวอย่าง: "โรงเรียนสวนกุหลาบ รังสิต", "Central World", "สนามบินดอนเมือง"
+    * ถ้าผู้ใช้แค่บอกประเภท (เช่น "ใกล้โรงเรียน") ให้ใส่ null (เพราะเป็น POI type)
+    * ถ้าไม่ระบุ ให้เป็น: null
+8.  "avoid_location_text":
+    * ชื่อสถานที่เฉพาะเจาะจงที่ผู้ใช้ "ไม่ต้องการอยู่ใกล้" (Negative Geocoding)
+    * ตัวอย่าง: "ไม่เอาใกล้โรงงาน", "ห่างจากสนามบิน", "ไกลจากโรงเรียนสวนกุหลาบ"
+    * ถ้าไม่ระบุ ให้เป็น: null
 
 [กฎ POI key มาตรฐาน]
 * "bts", "รถไฟฟ้า", "บีทีเอส", "skytrain" -> "bts_station"
@@ -106,13 +117,22 @@ RAG_SYSTEM_PROMPT = """
 3. ห้ามสับสน! ถ้า POI ชื่อ "train_station" ก็ไม่ใช่ BTS/MRT
 
 [งานของคุณ]
-จงเขียนคำอธิบายแบบ XAI (Explainable AI) ให้ลูกค้าเข้าใจเหตุผลเบื้องหลัง โดยใช้หลักการ "Chain of Thought":
-1.  **เชื่อมโยง (Connect):** เชื่อมโยงความต้องการ (Query) เข้ากับข้อมูลจริง (Data)
-    * *ตัวอย่าง:* "ที่คุณต้องการคอนโดเลี้ยงสัตว์ได้..."
-2.  **หลักฐาน (Evidence):** อ้างอิงตัวเลขจากผลวิเคราะห์ (Analysis Result) เพื่อยืนยัน
-    * *ตัวอย่าง:* "...ทรัพย์สินนี้ตอบโจทย์เพราะอยู่ห่างจากสวนสันติภาพเพียง 439 เมตร ซึ่งอยู่ในระยะเดินถึง"
-3.  **ข้อดี/ข้อเสีย (Trade-off):** ถ้ามีจุดที่ไม่ตรง ให้ชี้แจงเหตุผลอย่างตรงไปตรงมา
-    * *ตัวอย่าง:* "แม้ทำเลจะดีมาก แต่ระบบตัดคะแนนในส่วนนี้เพราะเป็น 'บ้านเดี่ยว' ซึ่งไม่ตรงกับที่คุณมองหา 'คอนโด' ครับ"
+จงเขียนคำอธิบายแบบ XAI (Explainable AI) ให้ลูกค้าเข้าใจเหตุผลเบื้องหลัง 
+
+⚠️ **รูปแบบบังคับ (MUST USE THIS FORMAT):**
+ต้องเขียนเป็น 3 หัวข้อ ใช้ตัวหนา (Bold) และหมายเลขกำกับเสมอ:
+
+1. **เชื่อมโยง (Connect):** เชื่อมโยงความต้องการ (Query) เข้ากับข้อมูลจริง (Data)
+   * *ตัวอย่าง:* "ที่คุณต้องการคอนโดเลี้ยงสัตว์ได้..."
+
+2. **หลักฐาน (Evidence):** อ้างอิงตัวเลขจากผลวิเคราะห์ (Analysis Result) เพื่อยืนยัน
+   * *ตัวอย่าง:* "...ทรัพย์สินนี้ตอบโจทย์เพราะอยู่ห่างจากสวนสันติภาพเพียง 439 เมตร"
+
+3. **ข้อดี/ข้อเสีย (Trade-off):** สรุปข้อดีข้อเสียของทรัพย์สินนี้ ⚠️ **พูดเฉพาะสิ่งที่ผู้ใช้ถามเท่านั้น**
+   * ถ้าผู้ใช้ถามแค่ "ใกล้เซเว่น" → ให้พูดถึงเซเว่นเท่านั้น ห้ามพูดเรื่อง BTS/โรงเรียน/อื่นๆ
+   * *ตัวอย่างที่ถูก:* (Query: "หาใกล้เซเว่น") "ทรัพย์สินนี้อยู่ห่างจาก 7-Eleven 500 เมตร"
+   * *ตัวอย่างที่ผิด:* (Query: "หาใกล้เซเว่น") "...แต่อยู่ไกลจาก BTS" ← ผิด! ไม่ได้ถามเรื่อง BTS
+
 
 [ไกด์ไลน์การแปลความหมายระยะทาง (Contextual Distance)]
 
@@ -122,9 +142,10 @@ RAG_SYSTEM_PROMPT = """
 * **800 ม. - 1.5 กม.:** "ระยะนี้เดินเหนื่อยครับ แนะนำให้นั่งพี่วิน (Motorcycle Taxi) ออกมาปากซอยจะสะดวกที่สุดครับ"
 * **1.5 กม. - 5 กม.:** "ระยะนี้ต้องอาศัยรถส่วนตัว หรือขับไปจอด (Park & Ride) ที่สถานีครับ"
 
-🔵 **กลุ่ม 2: สำหรับ ร้านสะดวกซื้อ (7-11/Family Mart)**
-* **< 800 ม.:** "เดินไปซื้อของกินของใช้ได้สะดวกเลยครับ"
-* **> 800 ม.:** "อาจจะต้องขี่มอเตอร์ไซค์ไปหน่อยนะครับ"
+🔵 **กลุ่ม 2: สำหรับ ร้านสะดวกซื้อ (7-11/Family Mart)** (ระยะค้นหา 3 กม.)
+* **< 1 กม.:** "เดินไปซื้อของกินของใช้ได้สะดวกเลยครับ"
+* **1 - 2 กม.:** "อาจจะต้องขี่มอเตอร์ไซค์ไปหน่อย แต่ถือว่าใกล้ครับ"
+* **2 - 3 กม.:** "อยู่ในรัศมีที่ยอมรับได้ครับ ขับรถไปซื้อของสะดวก"
 
 🟢 **กลุ่ม 3: สำหรับ สถานที่อื่นๆ (ห้าง/โรงพยาบาล/โรงเรียน)** (เน้นขับรถ)
 * **< 2 กม.:** "อยู่ใกล้มากครับ ขับรถแป๊บเดียวถึง"
@@ -135,6 +156,10 @@ RAG_SYSTEM_PROMPT = """
 1. ห้ามมั่วข้อมูล: ถ้าใน [Verified Data] ไม่มีข้อมูลรถไฟฟ้า "ห้าม" บอกว่าเดินทางด้วยรถไฟฟ้าสะดวก
 2. ห้ามแถ: ถ้า User หา "รถไฟฟ้า" แต่ถ้าไม่ ให้ตอบตรงๆ ว่า "ไม่อยู่ใกล้รถไฟฟ้า "
 3. แยกแยะรถไฟ: "สถานีรถไฟ(ธรรมดา)" ไม่ใช่ "รถไฟฟ้า BTS/MRT" ห้ามเหมารวม
+4. ⚠️ TARGET LOCATION TRAP: ถ้า User ค้นหา "สถานที่เฉพาะ" (เช่น โรงเรียน X, ห้าง Y) และใน [Verified Data] หรือ [ผลลัพธ์การวิเคราะห์] ระบุว่า "ไกล" หรือ "ไม่พบข้อมูล":
+   - ห้ามหยิบทำเลอื่นที่ไม่เกี่ยวมาอ้าง (เช่น "แม้ไม่ใกล้โรงเรียน X แต่ใกล้โรงเรียน Z แทน") ให้ตอบว่า "ไม่ตรงโจทย์" เลย
+   - ห้ามพยายามขายว่าเป็นทำเลดีถ้ามันไม่ใกล้สถานที่เป้าหมายหลัก
+5. ⚠️ **STAY ON TOPIC:** ห้ามพูดถึง POI ที่ผู้ใช้ไม่ได้ถามหา เช่น ถ้าถามแค่ "ใกล้เซเว่น" ห้ามพูดเรื่อง BTS/โรงเรียน/โรงพยาบาล เว้นแต่มี SYSTEM NOTE บอกให้พูด
 
 [ถ้ามี SYSTEM NOTE]
 ⚠️ SYSTEM NOTE: ไม่พบสถานี BTS/MRT ในระยะที่เหมาะ (แต่มี train_station = State Railway)
@@ -147,16 +172,28 @@ RAG_SYSTEM_PROMPT = """
 """
 
 
-def create_rag_user_content(query: str, meta: Dict, reasons: List[str], penalties: List[str]) -> str:
+def create_rag_user_content(query: str, meta: Dict, reasons: List[str], penalties: List[str], intent: Dict = None) -> str:
     """
     สร้าง User Content สำหรับ RAG Prompt
     - ใช้ display_name จาก POI_CONFIG (Single Source of Truth)
     - แยก BTS/MRT (rapid_transit) จาก train_station
     - เพิ่ม SYSTEM NOTE ให้ชัดเจน
+    - กรองเฉพาะ POI ที่ผู้ใช้ถามถึง (STAY ON TOPIC)
     """
     
     # ============================================================================
+    # 0. EXTRACT RELEVANT POIs FROM INTENT
+    # ============================================================================
+    relevant_pois = set()
+    if intent:
+        # รวม POI จาก must_have, nice_to_have, avoid_poi
+        relevant_pois.update(intent.get("must_have", []))
+        relevant_pois.update(intent.get("nice_to_have", []))
+        relevant_pois.update(intent.get("avoid_poi", []))
+    
+    # ============================================================================
     # 1. DYNAMIC EXTRACTION: ดึง POI จาก POI_CONFIG พร้อม display_name
+    #    กรองเฉพาะ POI ที่อยู่ใน relevant_pois (ถ้ามี)
     # ============================================================================
     poi_context = []
     found_keys = set()  # เก็บ key ที่เจอจริง (สำหรับ Trap Logic)
@@ -167,6 +204,12 @@ def create_rag_user_content(query: str, meta: Dict, reasons: List[str], penaltie
         
         # ตรวจสอบว่ามีข้อมูลระยะห่างและอยู่ในช่วง 0-10km
         if dist is not None and isinstance(dist, (int, float)) and 0 <= dist < 10000:
+            
+            # ⚡ STAY ON TOPIC: ถ้ามี intent ให้กรองเฉพาะ POI ที่ผู้ใช้ถามถึง
+            if relevant_pois and key not in relevant_pois:
+                # เก็บ found_keys ไว้สำหรับ trap logic แต่ไม่ส่งให้ AI
+                found_keys.add(key)
+                continue
             
             # 1. ดึง display_name จาก POI_CONFIG (ไม่ใช่ hardcoded mapping!)
             poi_config = POI_CONFIG[key]
@@ -312,7 +355,7 @@ POI_CONFIG = {
 
     # === 🏪 CONVENIENCE ===
     "convenience_store": {
-        "radius": 1000,
+        "radius": 3000,
         "weight": 0.5,
         "curve": "exponential",
         "display_name": "ร้านสะดวกซื้อ (7-11 / Family Mart)",
@@ -523,10 +566,20 @@ ASSET_ID_MAPPING = {
 # ============ SERVICE FUNCTIONS ============
 
 def get_embedding_model(model_name: str) -> SentenceTransformer:
-    logger.info(f"Loading embedding model: {model_name}")
+    import torch
+    
+    # Auto-detect GPU
+    if torch.cuda.is_available():
+        device = "cuda"
+        logger.info(f"🎮 GPU detected: {torch.cuda.get_device_name(0)}")
+    else:
+        device = "cpu"
+        logger.info("💻 No GPU detected, using CPU")
+    
+    logger.info(f"Loading embedding model: {model_name} on {device}")
     try:
-        model = SentenceTransformer(model_name)
-        logger.info("✅ Embedding model loaded.")
+        model = SentenceTransformer(model_name, device=device)
+        logger.info(f"✅ Embedding model loaded on {device}.")
         return model
     except Exception as e:
         logger.error(f"❌ Failed to load embedding model: {e}")
@@ -651,7 +704,9 @@ def enhanced_intent_detection(query: str) -> Dict[str, Any]:
                 "nice_to_have": intent_json.get("nice_to_have", []),
                 "avoid_poi": intent_json.get("avoid_poi", []),
                 "pet_friendly": intent_json.get("pet_friendly", None),
-                "price_range": intent_json.get("price_range", {"min": None, "max": None})
+                "price_range": intent_json.get("price_range", {"min": None, "max": None}),
+                "target_location_text": intent_json.get("target_location_text", None),
+                "avoid_location_text": intent_json.get("avoid_location_text", None)
             }
         logger.info(f"Intent detected: {validated_intent}")
         return validated_intent
@@ -909,7 +964,7 @@ def rag_explain_single_item(query: str, intent: Dict, result: Dict, reasons: Lis
     
     # 1. เตรียมข้อมูล
     meta = result.get("metadata", {})
-    user_content = create_rag_user_content(query, meta, reasons, penalties)
+    user_content = create_rag_user_content(query, meta, reasons, penalties, intent)
     
     # 2. เรียกฟังก์ชันยิง API (ที่แก้แล้ว)
     explanation = call_openrouter(RAG_SYSTEM_PROMPT, user_content)
@@ -921,57 +976,236 @@ def rag_explain_single_item(query: str, intent: Dict, result: Dict, reasons: Lis
     return explanation.strip().replace('"', '')
 
 def execute_search(query: str, filters: Dict, embed_model: SentenceTransformer, collection: chromadb.Collection) -> Dict[str, Any]:
+    """
+    Refactored search pipeline using new modular architecture.
+    
+    Key changes from old version:
+    1. Semantic score used ONLY for retrieval (not ranking)
+    2. Hard constraint gates disqualify bad matches (no semantic rescue)
+    3. Explicit data quality handling (missing data ≠ penalty)
+    4. All scoring decisions are explainable
+    """
+    from data_quality import assess_data_quality
+    from structured_scorer import get_scorer, ScoringResult
+    from search_config import RETRIEVAL_CONFIG
+    
+    # ===== STAGE 1: Intent Detection =====
     query_intent = enhanced_intent_detection(query)
-    results = chroma_query(collection, embed_model, query, TOP_K_RESULTS, filters)
-    if not results:
-        return { "query": query, "intent_detected": query_intent, "results": [], "message": f"🤷 ไม่พบผลลัพธ์ที่ตรงกับคำค้นหา: \"{query}\"" }
+    is_fallback_mode = not query_intent.get("asset_types") and not query_intent.get("must_have")
     
-    filtered_results = apply_filters(results, filters, query_intent)
-    logger.info("Re-ranking results...")
-    ranked_results = []
-    for r in filtered_results:
-        meta = r.get("metadata", {})
-        lifestyle_score = float(meta.get("lifestyle_score", 0))
-        intent_score, reasons, penalties = compute_intent_match_score(meta, query_intent)
-        nice_boost, nice_reasons = apply_nice_to_have_boost(meta, query_intent)
-        r["intent_reasons"] = reasons + nice_reasons
-        r["intent_penalties"] = penalties
-        final_score = ((intent_score * 0.7) + (r["semantic_score"] * 0.2) + (lifestyle_score * 0.05) + (nice_boost * 0.05))
-        r["final_score"] = final_score
-        r["intent_score"] = intent_score
-        r["lifestyle_score"] = lifestyle_score 
-        ranked_results.append(r)
+    if is_fallback_mode:
+        logger.warning("⚠️ Intent parsing returned empty - falling back to semantic-only mode")
+    
+    # ===== STAGE 1.5: Geocoding (Target Location) =====
+    target_location_coords = None
+    target_loc_text = query_intent.get("target_location_text")
+    
+    if target_loc_text:
+        logger.info(f"📍 Target location detected: '{target_loc_text}' - performing geocoding...")
+        target_location_coords = geocoding_service.geocode_location(target_loc_text)
+        if target_location_coords:
+            logger.info(f"✅ Geocoded to: {target_location_coords}")
+        else:
+            logger.warning(f"⚠️ Could not geocode '{target_loc_text}'")
 
-    ranked_results.sort(key=lambda x: x["final_score"], reverse=True)
+    # ===== STAGE 1.6: Geocoding (Avoid Location) =====
+    avoid_location_coords = None
+    avoid_loc_text = query_intent.get("avoid_location_text")
     
-    # ✅ [QUALITY GATE]
-    if not ranked_results or ranked_results[0]['final_score'] < 0.35:
+    if avoid_loc_text:
+        logger.info(f"🛑 Avoid location detected: '{avoid_loc_text}' - performing geocoding...")
+        avoid_location_coords = geocoding_service.geocode_location(avoid_loc_text)
+        if avoid_location_coords:
+            logger.info(f"✅ Avoid Geocoded to: {avoid_location_coords}")
+        else:
+            logger.warning(f"⚠️ Could not geocode avoid location '{avoid_loc_text}'")
+    
+    # ===== STAGE 2: Semantic Retrieval (ONLY for candidate selection) =====
+    top_k = RETRIEVAL_CONFIG.get("top_k_candidates", TOP_K_RESULTS)
+    final_n = RETRIEVAL_CONFIG.get("final_top_n", FINAL_TOP_N)
+    
+    candidates = chroma_query(collection, embed_model, query, top_k, filters)
+    
+    if not candidates:
         return {
             "query": query,
             "intent_detected": query_intent,
             "results": [],
-            "message": "🤔 ไม่พบทรัพย์สินที่ตรงกับความต้องการ หรือคำค้นหาอาจไม่ชัดเจนครับ (Low Matching Score)"
+            "message": f"🤷 ไม่พบผลลัพธ์ที่ตรงกับคำค้นหา: \"{query}\""
         }
     
+    # Apply price filters
+    filtered_candidates = apply_filters(candidates, filters, query_intent)
+    
+    if not filtered_candidates:
+        return {
+            "query": query,
+            "intent_detected": query_intent,
+            "results": [],
+            "message": "🤷 ไม่พบทรัพย์สินในช่วงราคาที่ต้องการ"
+        }
+    
+    # ===== STAGE 3: Structured Scoring with Hard Constraint Gates =====
+    logger.info("Scoring candidates with structured constraints...")
+    
+    scorer = get_scorer()
+    required_pois = query_intent.get("must_have", [])
+    nice_to_have_pois = query_intent.get("nice_to_have", [])
+    
+    scored_results = []
+    disqualified_results = []
+    
+    for candidate in filtered_candidates:
+        meta = candidate.get("metadata", {})
+        
+        # Assess data quality FIRST
+        quality = assess_data_quality(meta, required_pois, nice_to_have_pois)
+        
+        # Score using structured constraints ONLY (no semantic mixing!)
+        # Pass target_location_coords and avoid_location_coords for dynamic scoring
+        scoring_result = scorer.score(
+            meta, 
+            query_intent, 
+            quality, 
+            target_location_coords=target_location_coords,
+            avoid_location_coords=avoid_location_coords
+        )
+        
+        if scoring_result.is_disqualified:
+            # Hard constraint failed - do NOT include in results
+            disqualified_results.append({
+                "id": candidate["id"],
+                "reason": scoring_result.disqualification_reason,
+            })
+            continue
+        
+        # Store scoring information
+        candidate["structured_score"] = scoring_result.score
+        candidate["scoring_result"] = scoring_result
+        candidate["intent_reasons"] = scoring_result.positive_signals
+        candidate["intent_penalties"] = scoring_result.negative_signals
+        candidate["data_quality"] = quality
+        
+        scored_results.append(candidate)
+    
+    logger.info(f"Scored {len(scored_results)} candidates, disqualified {len(disqualified_results)}")
+    
+    # ===== STAGE 4: Rank by Structured Score ONLY =====
+    # Note: semantic_score is NOT used here (was the main bug in old code)
+    scored_results.sort(key=lambda x: x["structured_score"], reverse=True)
+    
+    # ===== STAGE 4.5: QUERY QUALITY GATE (Gibberish Detection) =====
+    # Semantic score is the primary signal: low score = query doesn't match database
+    SEMANTIC_THRESHOLD = 0.4  # Tuned: gibberish=0.34, valid=0.49+
+    
+    # Check if ALL results have score 0 (nothing matched constraints)
+    all_scores_zero = all(r.get("structured_score", 0) == 0 for r in scored_results) if scored_results else True
+    
+    # Get top semantic score (higher = better match to database content)
+    top_semantic_score = max((r.get("semantic_score", 0) for r in scored_results), default=0) if scored_results else 0
+    
+    logger.info(f"🔍 Query Quality Check: all_zero={all_scores_zero}, top_semantic={top_semantic_score:.2f}")
+    
+    # CASE 1: Gibberish query (low semantic score = query doesn't match DB content)
+    # Only reject if semantic score is truly low AND no candidates were disqualified
+    # (If candidates were disqualified, query was valid but just no matching assets)
+    has_disqualified = len(disqualified_results) > 0
+    
+    if top_semantic_score < SEMANTIC_THRESHOLD and all_scores_zero and not has_disqualified:
+        return {
+            "query": query,
+            "intent_detected": query_intent,
+            "results": [],
+            "message": "🤔 ไม่เข้าใจคำค้นหา กรุณาลองพิมพ์ใหม่ เช่น 'หาคอนโดใกล้ BTS' หรือ 'บ้านเดี่ยวไม่เกิน 5 ล้าน'",
+            "debug": {
+                "validation_failure": "gibberish_query",
+                "top_semantic_score": round(top_semantic_score, 2),
+            }
+        }
+    
+    # CASE 2: Valid query but nothing matched well (scores = 0, but semantic is OK)
+    # This means query is understood but no assets fit the criteria
+    if all_scores_zero and top_semantic_score >= SEMANTIC_THRESHOLD:
+        return {
+            "query": query,
+            "intent_detected": query_intent,
+            "results": [],
+            "message": f"🔍 เข้าใจคำค้นหาของคุณ แต่ไม่พบทรัพย์สินที่ตรงกับความต้องการทั้งหมด ลองปรับเงื่อนไขดูครับ",
+            "debug": {
+                "validation_failure": "no_matching_results",
+                "candidates_retrieved": len(candidates),
+                "qualified_but_low_score": len(scored_results),
+                "disqualified_count": len(disqualified_results),
+                "top_semantic_score": round(top_semantic_score, 2),
+            }
+        }
+    
+    # ===== QUALITY GATE: Must have at least one valid result =====
+    if not scored_results:
+        # All candidates disqualified
+        msg = "🤔 ไม่พบทรัพย์สินที่ตรงกับความต้องการ"
+        if disqualified_results:
+            # Provide hint about what went wrong
+            sample_reason = disqualified_results[0]["reason"] if disqualified_results else ""
+            msg += f" (ตัวอย่างเหตุผล: {sample_reason[:100]}...)"
+        
+        return {
+            "query": query,
+            "intent_detected": query_intent,
+            "results": [],
+            "message": msg,
+            "debug": {
+                "candidates_retrieved": len(candidates),
+                "after_price_filter": len(filtered_candidates),
+                "disqualified_count": len(disqualified_results),
+            }
+        }
+    
+    # ===== STAGE 5: Generate Explanations for Top N =====
     final_results_list = []
-    for r in ranked_results[:FINAL_TOP_N]:
+    
+    for r in scored_results[:final_n]:
         meta = r.get("metadata", {})
-        summary_text = rag_explain_single_item(query, query_intent, r, r.get('intent_reasons', []), r.get('intent_penalties', []))
+        scoring_result: ScoringResult = r.get("scoring_result")
+        
+        # Generate LLM explanation
+        summary_text = rag_explain_single_item(
+            query,
+            query_intent,
+            r,
+            r.get('intent_reasons', []),
+            r.get('intent_penalties', [])
+        )
+        
         final_results_list.append({
             "id": r['id'],
-            "final_score": round(r['final_score'], 2),
-            "intent_score": round(r['intent_score'], 2),
+            "structured_score": round(r['structured_score'], 2),
+            "semantic_score_retrieval": round(r.get('semantic_score', 0), 2),  # For reference only
+            "data_quality_score": round(r.get('data_quality', {}).quality_score if hasattr(r.get('data_quality', {}), 'quality_score') else 0, 2),
             "summary": summary_text,
             "reasons": r.get('intent_reasons', []),
             "penalties": r.get('intent_penalties', []),
+            "score_breakdown": scoring_result.score_breakdown if scoring_result else {},
             "asset_details": {
                 "name": meta.get('name_th', 'N/A'),
                 "price": float(meta.get('asset_details_selling_price', 0)),
                 "location": f"{meta.get('location_village_th', '')} {meta.get('location_road_th', '')}".strip() or "ไม่ระบุทำเล",
                 "bedroom": meta.get('bedroom', 'N/A'),
                 "bathroom": meta.get('bathroom', 'N/A'),
-                "type_id": meta.get('asset_type_id', 'N/A') 
+                "type_id": meta.get('asset_type_id', 'N/A')
             }
         })
     
-    return { "query": query, "intent_detected": query_intent, "results": final_results_list, "message": "Search completed successfully." }
+    return {
+        "query": query,
+        "intent_detected": query_intent,
+        "results": final_results_list,
+        "message": "Search completed successfully.",
+        "debug": {
+            "candidates_retrieved": len(candidates),
+            "after_price_filter": len(filtered_candidates),
+            "qualified_count": len(scored_results),
+            "disqualified_count": len(disqualified_results),
+            "fallback_mode": is_fallback_mode,
+        }
+    }

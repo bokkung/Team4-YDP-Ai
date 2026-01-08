@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+chromadb
+sentence-transformers
+pandas
+numpy
+googlemaps
+tqdm
+pydantic
